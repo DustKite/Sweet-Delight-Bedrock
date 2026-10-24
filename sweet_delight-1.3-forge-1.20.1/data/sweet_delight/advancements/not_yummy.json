@@ -1,0 +1,30 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "title": {
+      "translate": "advancements.not_yummy.title"
+    },
+    "description": {
+      "translate": "advancements.not_yummy.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "not_yummy_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "sweet_delight:rolledoutwheatdough"
+          ]
+        }
+      }
+    }
+  }
+}

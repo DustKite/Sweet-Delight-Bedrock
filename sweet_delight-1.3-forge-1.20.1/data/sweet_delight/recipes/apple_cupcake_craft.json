@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:apple"
+    },
+    "b": {
+      "item": "sweet_delight:flatbread"
+    }
+  },
+  "result": {
+    "item": "sweet_delight:applecupcake",
+    "count": 4
+  }
+}

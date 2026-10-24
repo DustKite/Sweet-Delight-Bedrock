@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:milk"
+    },
+    "b": {
+      "item": "sweet_delight:condensedmilk"
+    },
+    "c": {
+      "item": "minecraft:bread"
+    }
+  },
+  "result": {
+    "item": "sweet_delight:milkeclair",
+    "count": 4
+  }
+}

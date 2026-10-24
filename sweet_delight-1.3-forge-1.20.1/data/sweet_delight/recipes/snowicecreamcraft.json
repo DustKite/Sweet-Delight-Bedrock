@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:snowball"
+    },
+    "b": {
+      "item": "minecraft:powder_snow_bucket"
+    },
+    "c": {
+      "item": "sweet_delight:wafle"
+    }
+  },
+  "result": {
+    "item": "sweet_delight:snowy_ice_cream",
+    "count": 3
+  }
+}

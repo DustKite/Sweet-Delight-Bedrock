@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "sweet_delight:caramel"
+    },
+    {
+      "item": "sweet_delight:caramel"
+    }
+  ],
+  "result": {
+    "item": "sweet_delight:honeycaramel",
+    "count": 3
+  }
+}

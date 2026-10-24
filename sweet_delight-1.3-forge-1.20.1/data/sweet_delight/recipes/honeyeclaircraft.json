@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:honey_bottle"
+    },
+    "b": {
+      "item": "minecraft:honey_block"
+    },
+    "c": {
+      "item": "minecraft:bread"
+    }
+  },
+  "result": {
+    "item": "sweet_delight:honeyeclair",
+    "count": 4
+  }
+}

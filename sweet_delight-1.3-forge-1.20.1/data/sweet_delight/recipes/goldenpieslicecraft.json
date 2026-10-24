@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "sweet_delight:goldenpie"
+    }
+  ],
+  "result": [
+    {
+      "count": 4,
+      "item": "sweet_delight:goldenpieslice"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

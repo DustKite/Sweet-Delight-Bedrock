@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "farmersdelight:dough"
+    },
+    "b": {
+      "item": "minecraft:sweet_berries"
+    }
+  },
+  "result": {
+    "id": "sweet_delight:sweetberry_pretzel",
+    "count": 6
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "sweet_delight:marshmallow"
+    }
+  ],
+  "result": [
+    {
+      "count": 3,
+      "item": "sweet_delight:marshmallowslices"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

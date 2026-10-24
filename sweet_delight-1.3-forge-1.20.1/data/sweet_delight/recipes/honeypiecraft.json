@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bbb",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:wheat"
+    },
+    "b": {
+      "item": "minecraft:honey_bottle"
+    },
+    "c": {
+      "item": "minecraft:sugar"
+    },
+    "d": {
+      "item": "farmersdelight:pie_crust"
+    }
+  },
+  "result": {
+    "item": "sweet_delight:honeypie",
+    "count": 1
+  }
+}

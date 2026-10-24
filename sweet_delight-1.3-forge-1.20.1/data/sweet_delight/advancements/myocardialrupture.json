@@ -1,0 +1,52 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "sweet_delight:heartcaramel"
+    },
+    "title": {
+      "translate": "advancements.myocardialrupture.title"
+    },
+    "description": {
+      "translate": "advancements.myocardialrupture.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "myocardialrupture_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sweet_delight:caramelhalfheartright"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    },
+    "myocardialrupture_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sweet_delight:caramelhalfheartleft"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  }
+}

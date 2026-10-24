@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "sweet_delight:rolledoutwheatdough"
+    },
+    "b": {
+      "item": "sweet_delight:condensedmilk"
+    }
+  },
+  "result": {
+    "item": "sweet_delight:rawginderbread",
+    "count": 8
+  }
+}

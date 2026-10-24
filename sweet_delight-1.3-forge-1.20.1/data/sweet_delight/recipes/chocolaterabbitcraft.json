@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " aa",
+    "baa",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "b": {
+      "item": "minecraft:rabbit_foot"
+    }
+  },
+  "result": {
+    "item": "sweet_delight:chocolaterabbit",
+    "count": 2
+  }
+}

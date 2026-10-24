@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "b": {
+      "item": "sweet_delight:condensedmilk"
+    },
+    "c": {
+      "item": "minecraft:wheat"
+    },
+    "d": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "item": "sweet_delight:wafle",
+    "count": 5
+  }
+}

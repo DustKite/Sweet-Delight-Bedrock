@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "b": {
+      "item": "sweet_delight:chocolateglaze"
+    },
+    "c": {
+      "item": "minecraft:bread"
+    }
+  },
+  "result": {
+    "item": "sweet_delight:chocolateeclair",
+    "count": 4
+  }
+}

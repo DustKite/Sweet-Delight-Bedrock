@@ -1,0 +1,28 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 100,
+  "experience": 3,
+   "container": {
+    "item": "minecraft:stick"
+  "ingredients": [
+    {
+      "item": "sweet_delight:caramel"
+    },
+    {
+      "item": "sweet_delight:caramel"
+    },
+    {
+      "item": "minecraft:feather"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "sweet_delight:caramel_cockere",
+    "count": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:sugar"
+    },
+    "b": {
+      "tag": "forge:milk"
+    },
+    "c": {
+      "item": "minecraft:honey_bottle"
+    }
+  },
+  "result": {
+    "item": "sweet_delight:iris",
+    "count": 5
+  }
+}

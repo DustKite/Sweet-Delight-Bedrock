@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "ded"
+  ],
+  "key": {
+    "a": {
+      "item": "sweet_delight:iris"
+    },
+    "b": {
+      "tag": "forge:milk"
+    },
+    "c": {
+      "item": "minecraft:sugar"
+    },
+    "d": {
+      "item": "minecraft:wheat"
+    },
+    "e": {
+      "item": "farmersdelight:pie_crust"
+    }
+  },
+  "result": {
+    "item": "sweet_delight:irispie",
+    "count": 1
+  }
+}

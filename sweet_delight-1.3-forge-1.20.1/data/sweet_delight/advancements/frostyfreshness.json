@@ -1,0 +1,70 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "sweet_delight:chocolateicecream"
+    },
+    "title": {
+      "translate": "advancements.frostyfreshness.title"
+    },
+    "description": {
+      "translate": "advancements.frostyfreshness.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "frostyfreshness_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "sweet_delight:chocolateicecream"
+          ]
+        }
+      }
+    },
+    "frostyfreshness_1": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "sweet_delight:milk_ice_cream"
+          ]
+        }
+      }
+    },
+    "frostyfreshness_2": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "sweet_delight:snowy_ice_cream"
+          ]
+        }
+      }
+    },
+    "frostyfreshness_3": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "sweet_delight:melonicecream"
+          ]
+        }
+      }
+    },
+    "frostyfreshness_4": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "sweet_delight:sweetberryicecream"
+          ]
+        }
+      }
+    }
+  }
+}

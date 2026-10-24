@@ -1,0 +1,32 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 600,
+  "experience": 3,
+    "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "ingredients": [
+    {
+      "tag": "forge:milk"
+    },
+    {
+      "tag": "forge:milk"
+    },
+    {
+      "tag": "forge:milk"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "sweet_delight:condensedmilk",
+    "count": 1
+  }
+}

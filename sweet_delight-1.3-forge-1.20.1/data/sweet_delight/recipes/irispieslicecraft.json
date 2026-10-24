@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "sweet_delight:irispie"
+    }
+  ],
+  "result": [
+    {
+      "count": 4,
+      "item": "sweet_delight:irispieslice"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

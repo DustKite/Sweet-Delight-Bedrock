@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "sweet_delight:wafle"
+    },
+    "b": {
+      "item": "sweet_delight:condensedmilk"
+    }
+  },
+  "result": {
+    "item": "sweet_delight:waflecookie",
+    "count": 8
+  }
+}

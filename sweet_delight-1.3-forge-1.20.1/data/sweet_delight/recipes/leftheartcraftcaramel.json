@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "sweet_delight:caramel"
+    }
+  ],
+  "result": [
+    {
+      "count": 1,
+      "item": "sweet_delight:heart_caramel"
+    }
+  ],
+  "tool": {
+    "tag": "forge:knife"
+  }
+}

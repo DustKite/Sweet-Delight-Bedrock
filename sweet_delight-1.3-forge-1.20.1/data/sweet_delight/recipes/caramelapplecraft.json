@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 150,
+  "experience": 4,
+  "ingredients": [
+    {
+      "item": "sweet_delight:caramel"
+    },
+    {
+      "item": "sweet_delight:caramel"
+    },
+    {
+      "item": "sweet_delight:caramel"
+    },
+    {
+      "item": "minecraft:apple"
+    }
+  ],
+  "result": {
+    "item": "sweet_delight:caramelapple",
+    "count": 1
+  }
+}

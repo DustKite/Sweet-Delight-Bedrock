@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "sweet_delight:item/sweet_berry_ice_cream"
+  }
+}

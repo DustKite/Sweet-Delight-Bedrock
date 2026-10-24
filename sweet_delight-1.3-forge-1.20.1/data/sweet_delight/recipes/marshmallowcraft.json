@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:egg"
+    },
+    "b": {
+      "item": "minecraft:sugar"
+    },
+    "c": {
+      "item": "minecraft:apple"
+    }
+  },
+  "result": {
+    "item": "sweet_delight:marshmallow",
+    "count": 3
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "sweet_delight:snowy_ice_cream"
+    },
+    "title": {
+      "translate": "advancements.expectation_reality.title"
+    },
+    "description": {
+      "translate": "advancements.expectation_reality.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "expectation_reality_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 2
+  },
+  "parent": "sweet_delight:frostyfreshness"
+}

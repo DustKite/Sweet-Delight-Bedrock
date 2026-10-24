@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "ab",
+    " b"
+  ],
+  "key": {
+    "a": {
+      "item": "sweet_delight:caramel"
+    },
+    "b": {
+      "item": "sweet_delight:caramelcane"
+    }
+  },
+  "result": {
+    "item": "sweet_delight:caramelaxe",
+    "count": 1
+  }
+}

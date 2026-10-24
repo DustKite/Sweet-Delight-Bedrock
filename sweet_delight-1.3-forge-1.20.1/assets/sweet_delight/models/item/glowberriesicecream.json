@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "sweet_delight:item/glow_berries_rich_cream"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    " ca",
+    "d  "
+  ],
+  "key": {
+    "a": {
+      "item": "sweet_delight:caramel"
+    },
+    "b": {
+      "item": "minecraft:feather"
+    },
+    "c": {
+      "item": "minecraft:sugar"
+    },
+    "d": {
+      "item": "sweet_delight:lolipop"
+    }
+  },
+  "result": {
+    "item": "sweet_delight:caramel_cockere",
+    "count": 1
+  }
+}

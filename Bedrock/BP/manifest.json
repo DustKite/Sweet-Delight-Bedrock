@@ -1,0 +1,62 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "pack.name",
+    "description": "pack.description",
+    "uuid": "7482e3ea-d04d-4834-b10e-15eca46f9e73",
+    "version": [
+      5,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "d5dec977-36d0-4bdf-adc2-2ba001186e60",
+      "version": [
+        5,
+        0,
+        0
+      ]
+    },
+    {
+      "description": "Sweet Delight Scripts",
+      "type": "script",
+      "language": "javascript",
+      "uuid": "e279f085-b0c8-4e4f-a805-bb7f6dc2415b",
+      "version": [
+        5,
+        0,
+        0
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "Dust_Kite/Elaikes"
+    ],
+    "license": "https://github.com/DustKite/Sweet-Delight-Bedrock?tab=License-1-ov-file",
+    "product_type": "addon"
+  },
+  "dependencies": [
+    {
+      "uuid": "251eb0e9-1dd9-4968-920a-ab4125fcdf0b",
+      "version": [
+        5,
+        0,
+        0
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.0.0"
+    }
+  ]
+}

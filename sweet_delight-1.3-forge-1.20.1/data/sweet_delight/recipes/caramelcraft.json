@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 40,
+  "ingredient": {
+    "item": "minecraft:sugar"
+  },
+  "result": "sweet_delight:caramel"
+}

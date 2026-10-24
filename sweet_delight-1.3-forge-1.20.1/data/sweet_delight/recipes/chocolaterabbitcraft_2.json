@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "bcb",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "b": {
+      "item": "minecraft:sugar"
+    },
+    "c": {
+      "tag": "forge:milk"
+    }
+  },
+  "result": {
+    "item": "sweet_delight:chocolaterabbit",
+    "count": 2
+  }
+}
