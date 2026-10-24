@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sweet_delight:caramelcanecraft"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "result": {
+      "item": "sweet_delight:caramelcane",
+      "count": 3
+    },
+    "pattern": [
+      "a",
+      "a",
+      "a"
+    ],
+    "key": {
+      "a": {
+        "item": "sweet_delight:caramel"
+      }
+    }
+  }
+}

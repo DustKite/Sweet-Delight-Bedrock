@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sweet_delight:rawginderbreadcraft"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "result": {
+      "item": "sweet_delight:rawginderbread",
+      "count": 8
+    },
+    "pattern": [
+      "aba"
+    ],
+    "key": {
+      "a": {
+        "item": "sweet_delight:rolledoutwheatdough"
+      },
+      "b": {
+        "item": "sweet_delight:condensedmilk"
+      }
+    }
+  }
+}

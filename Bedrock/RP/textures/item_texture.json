@@ -1,0 +1,282 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "sweet_delight:apple_cupcake": {
+      "textures": "textures/items/sweet_delight/apple_cupcake"
+    },
+    "sweet_delight:bitter_chocolate": {
+      "textures": "textures/items/sweet_delight/bitter_chocolate"
+    },
+    "sweet_delight:blue_marmalade": {
+      "textures": "textures/items/sweet_delight/blue_marmalade"
+    },
+    "sweet_delight:brown_marmalade": {
+      "textures": "textures/items/sweet_delight/brown_marmalade"
+    },
+    "sweet_delight:caramel": {
+      "textures": "textures/items/sweet_delight/caramel"
+    },
+    "sweet_delight:caramel_apple": {
+      "textures": "textures/items/sweet_delight/caramel_apple"
+    },
+    "sweet_delight:caramel_axe": {
+      "textures": "textures/items/sweet_delight/caramel_axe"
+    },
+    "sweet_delight:caramel_cane": {
+      "textures": "textures/items/sweet_delight/caramel_cane"
+    },
+    "sweet_delight:caramel_cockerel": {
+      "textures": "textures/items/sweet_delight/caramel_cockerel"
+    },
+    "sweet_delight:caramel_half_heart_left": {
+      "textures": "textures/items/sweet_delight/caramel_half_heart_left"
+    },
+    "sweet_delight:caramel_half_heart_right": {
+      "textures": "textures/items/sweet_delight/caramel_half_heart_right"
+    },
+    "sweet_delight:caramel_knife": {
+      "textures": "textures/items/sweet_delight/caramel_knife"
+    },
+    "sweet_delight:caramel_lolipop": {
+      "textures": "textures/items/sweet_delight/caramel_lolipop"
+    },
+    "sweet_delight:caramel_sword": {
+      "textures": "textures/items/sweet_delight/caramel_sword"
+    },
+    "sweet_delight:chak_chak": {
+      "textures": "textures/items/sweet_delight/chak_chak"
+    },
+    "sweet_delight:chocolate": {
+      "textures": "textures/items/sweet_delight/chocolate"
+    },
+    "sweet_delight:chocolate_apple": {
+      "textures": "textures/items/sweet_delight/chocolate_apple"
+    },
+    "sweet_delight:chocolate_croussant": {
+      "textures": "textures/items/sweet_delight/chocolate_croussant"
+    },
+    "sweet_delight:chocolate_eclair": {
+      "textures": "textures/items/sweet_delight/chocolate_eclair"
+    },
+    "sweet_delight:chocolate_glaze": {
+      "textures": "textures/items/sweet_delight/chocolate_glaze"
+    },
+    "sweet_delight:chocolate_ice_cream": {
+      "textures": "textures/items/sweet_delight/chocolate_ice_cream"
+    },
+    "sweet_delight:chocolate_rabbit": {
+      "textures": "textures/items/sweet_delight/chocolate_rabbit"
+    },
+    "sweet_delight:clean_chocolate": {
+      "textures": "textures/items/sweet_delight/clean_chocolate"
+    },
+    "sweet_delight:condensed_milk": {
+      "textures": "textures/items/sweet_delight/condensed_milk"
+    },
+    "sweet_delight:croussant": {
+      "textures": "textures/items/sweet_delight/croussant"
+    },
+    "sweet_delight:cyan_marmalade": {
+      "textures": "textures/items/sweet_delight/cyan_marmalade"
+    },
+    "sweet_delight:flat_bread": {
+      "textures": "textures/items/sweet_delight/flat_bread"
+    },
+    "sweet_delight:ginderbread": {
+      "textures": "textures/items/sweet_delight/ginderbread"
+    },
+    "sweet_delight:ginderbread_heart": {
+      "textures": "textures/items/sweet_delight/ginderbread_heart"
+    },
+    "sweet_delight:ginderbread_ingot": {
+      "textures": "textures/items/sweet_delight/ginderbread_ingot"
+    },
+    "sweet_delight:ginderbread_spruce": {
+      "textures": "textures/items/sweet_delight/ginderbread_spruce"
+    },
+    "sweet_delight:glow_berries_rich_cream": {
+      "textures": "textures/items/sweet_delight/glow_berries_rich_cream"
+    },
+    "sweet_delight:glow_berry_cupcake": {
+      "textures": "textures/items/sweet_delight/glow_berry_cupcake"
+    },
+    "sweet_delight:glow_berry_pretzel": {
+      "textures": "textures/items/sweet_delight/glow_berry_pretzel"
+    },
+    "sweet_delight:glow_caramel": {
+      "textures": "textures/items/sweet_delight/glow_caramel"
+    },
+    "sweet_delight:golden_cockerel": {
+      "textures": "textures/items/sweet_delight/golden_cockerel"
+    },
+    "sweet_delight:golden_pie": {
+      "textures": "textures/items/sweet_delight/golden_pie"
+    },
+    "sweet_delight:golden_pie_slice": {
+      "textures": "textures/items/sweet_delight/golden_pie_slice"
+    },
+    "sweet_delight:green_marmalade": {
+      "textures": "textures/items/sweet_delight/green_marmalade"
+    },
+    "sweet_delight:halva": {
+      "textures": "textures/items/sweet_delight/halva"
+    },
+    "sweet_delight:heart_caramel": {
+      "textures": "textures/items/sweet_delight/heart_caramel"
+    },
+    "sweet_delight:heart_form": {
+      "textures": "textures/items/sweet_delight/heart_form"
+    },
+    "sweet_delight:honey_apple": {
+      "textures": "textures/items/sweet_delight/honey_apple"
+    },
+    "sweet_delight:honey_balls": {
+      "textures": "textures/items/sweet_delight/honey_balls"
+    },
+    "sweet_delight:honey_caramel": {
+      "textures": "textures/items/sweet_delight/honey_caramel"
+    },
+    "sweet_delight:honey_eclair": {
+      "textures": "textures/items/sweet_delight/honey_eclair"
+    },
+    "sweet_delight:honey_pancakes": {
+      "textures": "textures/items/sweet_delight/honey_pancakes"
+    },
+    "sweet_delight:honey_pie": {
+      "textures": "textures/items/sweet_delight/honey_pie"
+    },
+    "sweet_delight:honey_pie_slice": {
+      "textures": "textures/items/sweet_delight/honey_pie_slice"
+    },
+    "sweet_delight:honey_pretzel": {
+      "textures": "textures/items/sweet_delight/honey_pretzel"
+    },
+    "sweet_delight:ingot_form": {
+      "textures": "textures/items/sweet_delight/ingot_form"
+    },
+    "sweet_delight:iris": {
+      "textures": "textures/items/sweet_delight/iris"
+    },
+    "sweet_delight:iris_pie": {
+      "textures": "textures/items/sweet_delight/iris_pie"
+    },
+    "sweet_delight:iris_pie_slice": {
+      "textures": "textures/items/sweet_delight/iris_pie_slice"
+    },
+    "sweet_delight:light_blue_marmalade": {
+      "textures": "textures/items/sweet_delight/light_blue_marmalade"
+    },
+    "sweet_delight:lime_marmalade": {
+      "textures": "textures/items/sweet_delight/lime_marmalade"
+    },
+    "sweet_delight:magenta_marmalade": {
+      "textures": "textures/items/sweet_delight/magenta_marmalade"
+    },
+    "sweet_delight:marshmallow": {
+      "textures": "textures/items/sweet_delight/marshmallow"
+    },
+    "sweet_delight:marshmallows": {
+      "textures": "textures/items/sweet_delight/marshmallows"
+    },
+    "sweet_delight:marshmallow_slices": {
+      "textures": "textures/items/sweet_delight/marshmallow_slices"
+    },
+    "sweet_delight:melon_ice_cream": {
+      "textures": "textures/items/sweet_delight/melon_ice_cream"
+    },
+    "sweet_delight:milk_chocolate": {
+      "textures": "textures/items/sweet_delight/milk_chocolate"
+    },
+    "sweet_delight:milk_eclair": {
+      "textures": "textures/items/sweet_delight/milk_eclair"
+    },
+    "sweet_delight:milk_ice_cream": {
+      "textures": "textures/items/sweet_delight/milk_ice_cream"
+    },
+    "sweet_delight:orange_marmalade": {
+      "textures": "textures/items/sweet_delight/orange_marmalade"
+    },
+    "sweet_delight:pancakes": {
+      "textures": "textures/items/sweet_delight/pancakes"
+    },
+    "sweet_delight:pink_marmalade": {
+      "textures": "textures/items/sweet_delight/pink_marmalade"
+    },
+    "sweet_delight:poppy_halva": {
+      "textures": "textures/items/sweet_delight/poppy_halva"
+    },
+    "sweet_delight:pudding": {
+      "textures": "textures/items/sweet_delight/pudding"
+    },
+    "sweet_delight:purple_marmalade": {
+      "textures": "textures/items/sweet_delight/purple_marmalade"
+    },
+    "sweet_delight:raw_ginderbread": {
+      "textures": "textures/items/sweet_delight/raw_ginderbread"
+    },
+    "sweet_delight:raw_ginderbread_heart": {
+      "textures": "textures/items/sweet_delight/raw_ginderbread_heart"
+    },
+    "sweet_delight:raw_ginderbread_ingot": {
+      "textures": "textures/items/sweet_delight/raw_ginderbread_ingot"
+    },
+    "sweet_delight:raw_ginderbread_spruce": {
+      "textures": "textures/items/sweet_delight/raw_ginderbread_spruce"
+    },
+    "sweet_delight:red_marmalade": {
+      "textures": "textures/items/sweet_delight/red_marmalade"
+    },
+    "sweet_delight:rolled_out_wheat_dough": {
+      "textures": "textures/items/sweet_delight/rolled_out_wheat_dough"
+    },
+    "sweet_delight:rolling_pin": {
+      "textures": "textures/items/sweet_delight/rolling_pin"
+    },
+    "sweet_delight:snow_ice_cream": {
+      "textures": "textures/items/sweet_delight/snow_ice_cream"
+    },
+    "sweet_delight:spruce_form": {
+      "textures": "textures/items/sweet_delight/spruce_form"
+    },
+    "sweet_delight:sunflower_halva": {
+      "textures": "textures/items/sweet_delight/sunflower_halva"
+    },
+    "sweet_delight:sweet_berry_chocolate": {
+      "textures": "textures/items/sweet_delight/sweet_berry_chocolate"
+    },
+    "sweet_delight:sweet_berry_croussant": {
+      "textures": "textures/items/sweet_delight/sweet_berry_croussant"
+    },
+    "sweet_delight:sweet_berry_cupcake": {
+      "textures": "textures/items/sweet_delight/sweet_berry_cupcake"
+    },
+    "sweet_delight:sweet_berry_ice_cream": {
+      "textures": "textures/items/sweet_delight/sweet_berry_ice_cream"
+    },
+    "sweet_delight:sweet_berry_pancakes": {
+      "textures": "textures/items/sweet_delight/sweet_berry_pancakes"
+    },
+    "sweet_delight:sweet_berry_pie": {
+      "textures": "textures/items/sweet_delight/sweet_berry_pie"
+    },
+    "sweet_delight:sweet_berry_pie_slice": {
+      "textures": "textures/items/sweet_delight/sweet_berry_pie_slice"
+    },
+    "sweet_delight:sweet_berry_pretzel": {
+      "textures": "textures/items/sweet_delight/sweet_berry_pretzel"
+    },
+    "sweet_delight:sweet_caramel": {
+      "textures": "textures/items/sweet_delight/sweet_caramel"
+    },
+    "sweet_delight:wafle": {
+      "textures": "textures/items/sweet_delight/wafle"
+    },
+    "sweet_delight:wafle_cookie": {
+      "textures": "textures/items/sweet_delight/wafle_cookie"
+    },
+    "sweet_delight:yellow_marmalade": {
+      "textures": "textures/items/sweet_delight/yellow_marmalade"
+    }
+  }
+}

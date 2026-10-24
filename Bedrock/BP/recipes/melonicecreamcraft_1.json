@@ -1,0 +1,31 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sweet_delight:melonicecreamcraft_1"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "result": {
+      "item": "sweet_delight:melonicecream",
+      "count": 3
+    },
+    "pattern": [
+      "aaa",
+      "aba",
+      " c "
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:melon_slice"
+      },
+      "b": {
+        "item": "minecraft:powder_snow_bucket"
+      },
+      "c": {
+        "item": "sweet_delight:wafle"
+      }
+    }
+  }
+}

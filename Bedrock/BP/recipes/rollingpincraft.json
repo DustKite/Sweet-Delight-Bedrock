@@ -1,0 +1,31 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sweet_delight:rollingpincraft"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "result": {
+      "item": "sweet_delight:rollingpin",
+      "count": 1
+    },
+    "pattern": [
+      " ab",
+      "aca",
+      "ba "
+    ],
+    "key": {
+      "a": {
+        "tag": "minecraft:planks"
+      },
+      "b": {
+        "item": "minecraft:stick"
+      },
+      "c": {
+        "tag": "minecraft:logs"
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sweet_delight:milkeclaircraft_1"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "result": {
+      "item": "sweet_delight:milkeclair",
+      "count": 4
+    },
+    "pattern": [
+      "aba",
+      "ccc"
+    ],
+    "key": {
+      "a": {
+        "tag": "farmersdelight:is_milk"
+      },
+      "b": {
+        "item": "sweet_delight:condensedmilk"
+      },
+      "c": {
+        "item": "minecraft:bread"
+      }
+    }
+  }
+}

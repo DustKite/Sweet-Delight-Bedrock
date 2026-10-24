@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "sweet_delight:honeycaramelcraft"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "result": {
+      "item": "sweet_delight:honeycaramel",
+      "count": 3
+    },
+    "ingredients": [
+      {
+        "item": "minecraft:honey_bottle"
+      },
+      {
+        "item": "minecraft:honey_bottle"
+      },
+      {
+        "item": "minecraft:sugar"
+      },
+      {
+        "item": "sweet_delight:caramel"
+      },
+      {
+        "item": "sweet_delight:caramel"
+      }
+    ]
+  }
+}

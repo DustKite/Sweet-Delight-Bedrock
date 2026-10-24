@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sweet_delight:glow_berry_cupcake_craft"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "result": {
+      "item": "sweet_delight:glow_berry_cupcake",
+      "count": 4
+    },
+    "pattern": [
+      " a ",
+      "aaa",
+      " b "
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:glow_berries"
+      },
+      "b": {
+        "item": "sweet_delight:flatbread"
+      }
+    }
+  }
+}

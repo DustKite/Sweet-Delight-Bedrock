@@ -1,0 +1,13 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "sweet_delight:ginderbreadheart_furnace_rawginderbreadheart"
+    },
+    "tags": [
+      "smoker"
+    ],
+    "input": "sweet_delight:rawginderbreadheart",
+    "output": "sweet_delight:ginderbreadheart"
+  }
+}

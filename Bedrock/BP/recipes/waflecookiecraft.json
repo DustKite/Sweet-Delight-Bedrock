@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sweet_delight:waflecookiecraft"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "result": {
+      "item": "sweet_delight:waflecookie",
+      "count": 8
+    },
+    "pattern": [
+      "a",
+      "b",
+      "a"
+    ],
+    "key": {
+      "a": {
+        "item": "sweet_delight:wafle"
+      },
+      "b": {
+        "item": "sweet_delight:condensedmilk"
+      }
+    }
+  }
+}

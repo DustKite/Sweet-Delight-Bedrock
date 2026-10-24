@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sweet_delight:waflecraft"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "result": {
+      "item": "sweet_delight:wafle",
+      "count": 5
+    },
+    "pattern": [
+      "aba",
+      "cdc"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:cocoa_beans"
+      },
+      "b": {
+        "item": "sweet_delight:condensedmilk"
+      },
+      "c": {
+        "item": "minecraft:wheat"
+      },
+      "d": {
+        "item": "minecraft:sugar"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "sweet_delight:flatbread_furnace_rolledoutwheatdough"
+    },
+    "tags": [
+      "smoker"
+    ],
+    "input": "sweet_delight:rolledoutwheatdough",
+    "output": "sweet_delight:flatbread"
+  }
+}

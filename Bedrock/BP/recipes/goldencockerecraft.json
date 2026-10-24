@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sweet_delight:goldencockerecraft"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "result": {
+      "item": "sweet_delight:goldencockere",
+      "count": 1
+    },
+    "pattern": [
+      "aaa",
+      "aba",
+      "aaa"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:gold_nugget"
+      },
+      "b": {
+        "item": "sweet_delight:caramel_cockere"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "sweet_delight:pancakes_furnace_rolledoutwheatdough"
+    },
+    "tags": [
+      "furnace",
+      "campfire",
+      "smoker",
+      "soul_campfire"
+    ],
+    "input": "sweet_delight:rolledoutwheatdough",
+    "output": "sweet_delight:pancakes"
+  }
+}

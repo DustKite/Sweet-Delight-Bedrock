@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sweet_delight:sweet_berry_cupcake_craft"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "result": {
+      "item": "sweet_delight:sweetberrycupcake",
+      "count": 4
+    },
+    "pattern": [
+      " a ",
+      "aaa",
+      " b "
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:sweet_berries"
+      },
+      "b": {
+        "item": "sweet_delight:flatbread"
+      }
+    }
+  }
+}

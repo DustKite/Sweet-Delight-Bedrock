@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sweet_delight:honeypretzelcraft"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "result": {
+      "item": "sweet_delight:sweetberry_pretzel",
+      "count": 6
+    },
+    "pattern": [
+      "aba",
+      " a "
+    ],
+    "key": {
+      "a": {
+        "item": "farmersdelight:dough"
+      },
+      "b": {
+        "item": "minecraft:honey_bottle"
+      }
+    }
+  }
+}
