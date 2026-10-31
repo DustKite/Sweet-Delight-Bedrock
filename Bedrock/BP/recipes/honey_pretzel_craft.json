@@ -2,13 +2,13 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "sweet_delight:honey_pretzel_craft"
+      "identifier": "sweet_delight:honey_pretzel"
     },
     "tags": [
       "crafting_table"
     ],
     "result": {
-      "item": "sweet_delight:honeypretzel",
+      "item": "sweet_delight:honey_pretzel",
       "count": 3
     },
     "pattern": [

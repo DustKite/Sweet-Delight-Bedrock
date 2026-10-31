@@ -2,13 +2,13 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "sweet_delight:spruceformcraft"
+      "identifier": "sweet_delight:spruce_form"
     },
     "tags": [
       "crafting_table"
     ],
     "result": {
-      "item": "sweet_delight:spruceform",
+      "item": "sweet_delight:spruce_form",
       "count": 1
     },
     "pattern": [

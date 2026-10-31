@@ -2,13 +2,13 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "sweet_delight:croussantcraft"
+      "identifier": "sweet_delight:croussant"
     },
     "tags": [
       "crafting_table"
     ],
     "result": {
-      "item": "sweet_delight:crousant",
+      "item": "sweet_delight:croussant",
       "count": 2
     },
     "pattern": [
@@ -18,7 +18,7 @@
     ],
     "key": {
       "a": {
-        "item": "sweet_delight:rolledoutwheatdough"
+        "item": "sweet_delight:rolled_out_wheat_dough"
       },
       "b": {
         "item": "minecraft:cocoa_beans"

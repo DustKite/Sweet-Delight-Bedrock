@@ -2,13 +2,13 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "sweet_delight:chocolateeclaircraft"
+      "identifier": "sweet_delight:chocolate_eclair"
     },
     "tags": [
       "crafting_table"
     ],
     "result": {
-      "item": "sweet_delight:chocolateeclair",
+      "item": "sweet_delight:chocolate_eclair",
       "count": 4
     },
     "pattern": [
@@ -20,7 +20,7 @@
         "item": "minecraft:cocoa_beans"
       },
       "b": {
-        "item": "sweet_delight:chocolateglaze"
+        "item": "sweet_delight:chocolate_glaze"
       },
       "c": {
         "item": "minecraft:bread"

@@ -1,6 +1,6 @@
 const CookingPotRecipes = [
     {
-        "identifier": "sweet_delight:bitterchocolate",
+        "identifier": "sweet_delight:bitter_chocolate",
         "tags": [
             "cooking_pot"
         ],
@@ -25,12 +25,12 @@ const CookingPotRecipes = [
             }
         ],
         "result": {
-            "item": "sweet_delight:bitterchocolate",
+            "item": "sweet_delight:bitter_chocolate",
             "count": 2
         }
     },
     {
-        "identifier": "sweet_delight:caramel_cockere",
+        "identifier": "sweet_delight:caramel_cockerel",
         "tags": [
             "cooking_pot"
         ],
@@ -57,12 +57,12 @@ const CookingPotRecipes = [
             }
         ],
         "result": {
-            "item": "sweet_delight:caramel_cockere",
+            "item": "sweet_delight:caramel_cockerel",
             "count": 1
         }
     },
     {
-        "identifier": "sweet_delight:bluemarmalade",
+        "identifier": "sweet_delight:blue_marmalade",
         "tags": [
             "cooking_pot"
         ],
@@ -90,12 +90,12 @@ const CookingPotRecipes = [
             }
         ],
         "result": {
-            "item": "sweet_delight:bluemarmalade",
+            "item": "sweet_delight:blue_marmalade",
             "count": 16
         }
     },
     {
-        "identifier": "sweet_delight:brownmarmalade",
+        "identifier": "sweet_delight:brown_marmalade",
         "tags": [
             "cooking_pot"
         ],
@@ -123,12 +123,12 @@ const CookingPotRecipes = [
             }
         ],
         "result": {
-            "item": "sweet_delight:brownmarmalade",
+            "item": "sweet_delight:brown_marmalade",
             "count": 16
         }
     },
     {
-        "identifier": "sweet_delight:caramelapple",
+        "identifier": "sweet_delight:caramel_apple",
         "tags": [
             "cooking_pot"
         ],
@@ -150,7 +150,7 @@ const CookingPotRecipes = [
             }
         ],
         "result": {
-            "item": "sweet_delight:caramelapple",
+            "item": "sweet_delight:caramel_apple",
             "count": 1
         }
     },
@@ -190,7 +190,7 @@ const CookingPotRecipes = [
         }
     },
     {
-        "identifier": "sweet_delight:chocolateglaze",
+        "identifier": "sweet_delight:chocolate_glaze",
         "tags": [
             "cooking_pot"
         ],
@@ -218,7 +218,7 @@ const CookingPotRecipes = [
             }
         ],
         "result": {
-            "item": "sweet_delight:chocolateglaze",
+            "item": "sweet_delight:chocolate_glaze",
             "count": 1
         },
         "container": {
@@ -226,7 +226,7 @@ const CookingPotRecipes = [
         }
     },
     {
-        "identifier": "sweet_delight:cleanchocolate",
+        "identifier": "sweet_delight:clean_chocolate",
         "tags": [
             "cooking_pot"
         ],
@@ -248,12 +248,12 @@ const CookingPotRecipes = [
             }
         ],
         "result": {
-            "item": "sweet_delight:cleanchocolate",
+            "item": "sweet_delight:clean_chocolate",
             "count": 2
         }
     },
     {
-        "identifier": "sweet_delight:condensedmilk",
+        "identifier": "sweet_delight:condensed_milk",
         "tags": [
             "cooking_pot"
         ],
@@ -296,7 +296,7 @@ const CookingPotRecipes = [
             }
         ],
         "result": {
-            "item": "sweet_delight:condensedmilk",
+            "item": "sweet_delight:condensed_milk",
             "count": 1
         },
         "container": {
@@ -304,7 +304,7 @@ const CookingPotRecipes = [
         }
     },
     {
-        "identifier": "sweet_delight:cyanmarmalade",
+        "identifier": "sweet_delight:cyan_marmalade",
         "tags": [
             "cooking_pot"
         ],
@@ -332,12 +332,12 @@ const CookingPotRecipes = [
             }
         ],
         "result": {
-            "item": "sweet_delight:cyanmarmalade",
+            "item": "sweet_delight:cyan_marmalade",
             "count": 16
         }
     },
     {
-        "identifier": "sweet_delight:greenmarmalade",
+        "identifier": "sweet_delight:green_marmalade",
         "tags": [
             "cooking_pot"
         ],
@@ -365,12 +365,12 @@ const CookingPotRecipes = [
             }
         ],
         "result": {
-            "item": "sweet_delight:greenmarmalade",
+            "item": "sweet_delight:green_marmalade",
             "count": 16
         }
     },
     {
-        "identifier": "sweet_delight:lightbluemarmalade",
+        "identifier": "sweet_delight:light_blue_marmalade",
         "tags": [
             "cooking_pot"
         ],
@@ -398,12 +398,12 @@ const CookingPotRecipes = [
             }
         ],
         "result": {
-            "item": "sweet_delight:lightbluemarmalade",
+            "item": "sweet_delight:light_blue_marmalade",
             "count": 16
         }
     },
     {
-        "identifier": "sweet_delight:limemarmalade",
+        "identifier": "sweet_delight:lime_marmalade",
         "tags": [
             "cooking_pot"
         ],
@@ -431,12 +431,12 @@ const CookingPotRecipes = [
             }
         ],
         "result": {
-            "item": "sweet_delight:limemarmalade",
+            "item": "sweet_delight:lime_marmalade",
             "count": 16
         }
     },
     {
-        "identifier": "sweet_delight:magentamarmalade",
+        "identifier": "sweet_delight:magenta_marmalade",
         "tags": [
             "cooking_pot"
         ],
@@ -464,12 +464,12 @@ const CookingPotRecipes = [
             }
         ],
         "result": {
-            "item": "sweet_delight:magentamarmalade",
+            "item": "sweet_delight:magenta_marmalade",
             "count": 16
         }
     },
     {
-        "identifier": "sweet_delight:milkchocolate",
+        "identifier": "sweet_delight:milk_chocolate",
         "tags": [
             "cooking_pot"
         ],
@@ -512,12 +512,12 @@ const CookingPotRecipes = [
             }
         ],
         "result": {
-            "item": "sweet_delight:milkchocolate",
+            "item": "sweet_delight:milk_chocolate",
             "count": 2
         }
     },
     {
-        "identifier": "sweet_delight:orangemarmalade",
+        "identifier": "sweet_delight:orange_marmalade",
         "tags": [
             "cooking_pot"
         ],
@@ -545,12 +545,12 @@ const CookingPotRecipes = [
             }
         ],
         "result": {
-            "item": "sweet_delight:orangemarmalade",
+            "item": "sweet_delight:orange_marmalade",
             "count": 16
         }
     },
     {
-        "identifier": "sweet_delight:pinkmarmalade",
+        "identifier": "sweet_delight:pink_marmalade",
         "tags": [
             "cooking_pot"
         ],
@@ -578,12 +578,12 @@ const CookingPotRecipes = [
             }
         ],
         "result": {
-            "item": "sweet_delight:pinkmarmalade",
+            "item": "sweet_delight:pink_marmalade",
             "count": 16
         }
     },
     {
-        "identifier": "sweet_delight:poppyhalva",
+        "identifier": "sweet_delight:poppy_halva",
         "tags": [
             "cooking_pot"
         ],
@@ -611,12 +611,12 @@ const CookingPotRecipes = [
             }
         ],
         "result": {
-            "item": "sweet_delight:poppyhalva",
+            "item": "sweet_delight:poppy_halva",
             "count": 2
         }
     },
     {
-        "identifier": "sweet_delight:purplemarmalade",
+        "identifier": "sweet_delight:purple_marmalade",
         "tags": [
             "cooking_pot"
         ],
@@ -644,12 +644,12 @@ const CookingPotRecipes = [
             }
         ],
         "result": {
-            "item": "sweet_delight:purplemarmalade",
+            "item": "sweet_delight:purple_marmalade",
             "count": 16
         }
     },
     {
-        "identifier": "sweet_delight:redmarmalade",
+        "identifier": "sweet_delight:red_marmalade",
         "tags": [
             "cooking_pot"
         ],
@@ -677,12 +677,12 @@ const CookingPotRecipes = [
             }
         ],
         "result": {
-            "item": "sweet_delight:redmarmalade",
+            "item": "sweet_delight:red_marmalade",
             "count": 16
         }
     },
     {
-        "identifier": "sweet_delight:sunflowerhalva",
+        "identifier": "sweet_delight:sunflower_halva",
         "tags": [
             "cooking_pot"
         ],
@@ -707,12 +707,12 @@ const CookingPotRecipes = [
             }
         ],
         "result": {
-            "item": "sweet_delight:sunflowerhalva",
+            "item": "sweet_delight:sunflower_halva",
             "count": 2
         }
     },
     {
-        "identifier": "sweet_delight:sweetberrychocolate",
+        "identifier": "sweet_delight:sweet_berry_chocolate",
         "tags": [
             "cooking_pot"
         ],
@@ -745,12 +745,12 @@ const CookingPotRecipes = [
             }
         ],
         "result": {
-            "item": "sweet_delight:sweetberrychocolate",
+            "item": "sweet_delight:sweet_berry_chocolate",
             "count": 2
         }
     },
     {
-        "identifier": "sweet_delight:yellowmarmalade",
+        "identifier": "sweet_delight:yellow_marmalade",
         "tags": [
             "cooking_pot"
         ],
@@ -778,7 +778,7 @@ const CookingPotRecipes = [
             }
         ],
         "result": {
-            "item": "sweet_delight:yellowmarmalade",
+            "item": "sweet_delight:yellow_marmalade",
             "count": 16
         }
     }

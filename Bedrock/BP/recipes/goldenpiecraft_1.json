@@ -2,13 +2,13 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "sweet_delight:goldenpiecraft_1"
+      "identifier": "sweet_delight:golden_pie"
     },
     "tags": [
       "crafting_table"
     ],
     "result": {
-      "item": "sweet_delight:goldenpie",
+      "item": "sweet_delight:golden_pie",
       "count": 1
     },
     "pattern": [

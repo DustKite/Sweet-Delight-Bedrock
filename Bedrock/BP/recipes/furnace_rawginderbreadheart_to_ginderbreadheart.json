@@ -7,7 +7,7 @@
     "tags": [
       "smoker"
     ],
-    "input": "sweet_delight:rawginderbreadheart",
-    "output": "sweet_delight:ginderbreadheart"
+    "input": "sweet_delight:raw_ginderbread_heart",
+    "output": "sweet_delight:ginderbread_heart"
   }
 }

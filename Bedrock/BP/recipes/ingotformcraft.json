@@ -2,13 +2,13 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "sweet_delight:ingotformcraft"
+      "identifier": "sweet_delight:ingot_form"
     },
     "tags": [
       "crafting_table"
     ],
     "result": {
-      "item": "sweet_delight:ingotform",
+      "item": "sweet_delight:ingot_form",
       "count": 1
     },
     "pattern": [

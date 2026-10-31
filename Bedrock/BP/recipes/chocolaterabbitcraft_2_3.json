@@ -2,13 +2,13 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "sweet_delight:chocolaterabbitcraft_2_3"
+      "identifier": "sweet_delight:chocolate_rabbit"
     },
     "tags": [
       "crafting_table"
     ],
     "result": {
-      "item": "sweet_delight:chocolaterabbit",
+      "item": "sweet_delight:chocolate_rabbit",
       "count": 2
     },
     "pattern": [

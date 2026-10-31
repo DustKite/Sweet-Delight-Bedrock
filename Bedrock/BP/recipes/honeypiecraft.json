@@ -2,13 +2,13 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "sweet_delight:honeypiecraft"
+      "identifier": "sweet_delight:honey_pie"
     },
     "tags": [
       "crafting_table"
     ],
     "result": {
-      "item": "sweet_delight:honeypie",
+      "item": "sweet_delight:honey_pie",
       "count": 1
     },
     "pattern": [

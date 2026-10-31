@@ -40,7 +40,7 @@ function applyMarmaladeEffect(player) {
     } else if (Math.random() < 0.05) {
         player.addEffect("haste", 600, { amplifier: 1 });
     } else {
-        player.addEffect("luck", 6000, { amplifier: 0 });
+        player.addEffect("regeneration", 100, { amplifier: 0 });
     }
 }
 
@@ -54,111 +54,111 @@ export class FoodRegister {
         const itemId = itemStack.typeId;
 
         switch (itemId) {
-            case "sweet_delight:applecupcake":
+            case "sweet_delight:apple_cupcake":
                 player.addEffect("absorption", 600, { amplifier: 0 });
                 break;
 
-            case "sweet_delight:bitterchocolate":
+            case "sweet_delight:bitter_chocolate":
                 player.addEffect("health_boost", 100, { amplifier: 0 });
                 player.addEffect("regeneration", 100, { amplifier: 0 });
                 break;
 
-            case "sweet_delight:chakchak":
+            case "sweet_delight:chak_chak":
                 player.addEffect("saturation", 20, { amplifier: 0 });
                 break;
 
-            case "sweet_delight:chocolateapple":
+            case "sweet_delight:chocolate_apple":
             case "sweet_delight:chocolate":
                 player.addEffect("regeneration", 100, { amplifier: 0 });
                 player.addEffect("speed", 100, { amplifier: 0 });
                 break;
 
-            case "sweet_delight:chocolateglaze":
+            case "sweet_delight:chocolate_glaze":
                 player.addEffect("speed", 200, { amplifier: 0 });
                 player.addEffect("instant_health", 1, { amplifier: 0 });
                 break;
 
-            case "sweet_delight:chocolateicecream":
+            case "sweet_delight:chocolate_ice_cream":
                 player.addEffect("speed", 100, { amplifier: 0 });
                 try { player.extinguishFire(true); } catch (e) { }
                 break;
 
-            case "sweet_delight:chocolaterabbit":
+            case "sweet_delight:chocolate_rabbit":
                 player.addEffect("speed", 600, { amplifier: 0 });
                 player.addEffect("jump_boost", 600, { amplifier: 0 });
                 break;
 
-            case "sweet_delight:chocolatecroussant":
-            case "sweet_delight:chocolateeclair":
+            case "sweet_delight:chocolate_croussant":
+            case "sweet_delight:chocolate_eclair":
                 player.addEffect("speed", 120, { amplifier: 0 });
                 break;
 
-            case "sweet_delight:cleanchocolate":
+            case "sweet_delight:clean_chocolate":
                 player.addEffect("regeneration", 100, { amplifier: 0 });
                 break;
 
-            case "sweet_delight:condensedmilk":
+            case "sweet_delight:condensed_milk":
                 clearAllEffects(player);
                 player.addEffect("instant_health", 1, { amplifier: 0 });
                 break;
 
-            case "sweet_delight:ginderbreadheart":
+            case "sweet_delight:ginderbread_heart":
                 player.addEffect("health_boost", 300, { amplifier: 1 });
                 player.addEffect("regeneration", 20, { amplifier: 0 });
                 break;
 
-            case "sweet_delight:ginderbreadingot":
+            case "sweet_delight:ginderbread_ingot":
                 player.addEffect("resistance", 120, { amplifier: 0 });
                 break;
 
-            case "sweet_delight:ginderbreadspruce":
+            case "sweet_delight:ginderbread_spruce":
                 player.addEffect("speed", 60, { amplifier: 0 });
                 player.addEffect("jump_boost", 60, { amplifier: 0 });
                 break;
 
             case "sweet_delight:glow_berry_cupcake":
-            case "sweet_delight:glowberrypretzel":
+            case "sweet_delight:glow_berry_pretzel":
                 player.addEffect("night_vision", 60, { amplifier: 0 });
                 break;
 
-            case "sweet_delight:glowberriesicecream":
+            case "sweet_delight:glow_berries_rich_cream":
                 player.addEffect("instant_health", 1, { amplifier: 0 });
                 player.addEffect("night_vision", 60, { amplifier: 0 });
                 try { player.extinguishFire(true); } catch (e) { }
                 break;
 
-            case "sweet_delight:goldencockere":
-            case "sweet_delight:goldenpieslice":
+            case "sweet_delight:golden_cockerel":
+            case "sweet_delight:golden_pie_slice":
                 player.addEffect("absorption", 60, { amplifier: 1 });
                 break;
 
-            case "sweet_delight:goldenpie":
+            case "sweet_delight:golden_pie":
                 player.addEffect("strength", 150, { amplifier: 0 });
                 player.addEffect("absorption", 600, { amplifier: 2 });
                 player.addEffect("speed", 80, { amplifier: 0 });
                 break;
 
-            case "sweet_delight:honeyapple":
-            case "sweet_delight:honeyballs":
-            case "sweet_delight:honeycaramel":
-            case "sweet_delight:honeyeclair":
-            case "sweet_delight:honeypancakes":
-            case "sweet_delight:honeypie":
-            case "sweet_delight:honeypieslice":
-            case "sweet_delight:honeypretzel":
+            case "sweet_delight:honey_apple":
+            case "sweet_delight:honey_balls":
+            case "sweet_delight:honey_caramel":
+            case "sweet_delight:honey_eclair":
+            case "sweet_delight:honey_pancakes":
+            case "sweet_delight:honey_pie":
+            case "sweet_delight:honey_pie_slice":
+            case "sweet_delight:honey_pretzel":
                 clearNegativeEffects(player);
                 break;
 
-            case "sweet_delight:irispie":
+            case "sweet_delight:iris_pie":
                 player.addEffect("instant_health", 1, { amplifier: 1 });
                 break;
 
-            case "sweet_delight:milkchocolate":
+            case "sweet_delight:milk_chocolate":
                 clearAllEffects(player);
                 player.addEffect("regeneration", 100, { amplifier: 0 });
                 break;
 
-            case "sweet_delight:milkeclair":
+            case "sweet_delight:milk_eclair":
                 clearAllEffects(player);
                 break;
 
@@ -167,12 +167,12 @@ export class FoodRegister {
                 try { player.extinguishFire(true); } catch (e) { }
                 break;
 
-            case "sweet_delight:sunflowerhalva":
+            case "sweet_delight:sunflower_halva":
                 player.addEffect("slowness", 240, { amplifier: 1 });
                 player.addEffect("nausea", 40, { amplifier: 1 });
                 break;
 
-            case "sweet_delight:poppyhalva":
+            case "sweet_delight:poppy_halva":
                 player.addEffect("slowness", 240, { amplifier: 0 });
                 player.addEffect("nausea", 40, { amplifier: 1 });
                 break;
@@ -181,50 +181,50 @@ export class FoodRegister {
                 player.addEffect("jump_boost", 600, { amplifier: 0 });
                 break;
 
-            case "sweet_delight:rolledoutwheatdough":
+            case "sweet_delight:rolled_out_wheat_dough":
                 player.addEffect("hunger", 60, { amplifier: 1 });
                 player.addEffect("nausea", 60, { amplifier: 1 });
                 break;
 
-            case "sweet_delight:snowy_ice_cream":
+            case "sweet_delight:snow_ice_cream":
                 player.addEffect("slowness", 240, { amplifier: 0 });
                 try { player.extinguishFire(true); } catch (e) { }
                 break;
 
-            case "sweet_delight:sweetberrychocolate":
+            case "sweet_delight:sweet_berry_chocolate":
                 player.addEffect("regeneration", 100, { amplifier: 0 });
                 player.addEffect("instant_health", 1, { amplifier: 0 });
                 break;
 
-            case "sweet_delight:sweetberryicecream":
+            case "sweet_delight:sweet_berry_ice_cream":
                 player.addEffect("instant_health", 1, { amplifier: 0 });
                 try { player.extinguishFire(true); } catch (e) { }
                 break;
 
-            case "sweet_delight:caramel_cockere":
+            case "sweet_delight:caramel_cockerel":
             case "sweet_delight:iris":
-            case "sweet_delight:irispieslice":
-            case "sweet_delight:lolipop":
-            case "sweet_delight:sweetberrycroussant":
-            case "sweet_delight:sweetberrycupcake":
-            case "sweet_delight:sweetberrypie":
-            case "sweet_delight:sweetberrypieslice":
-            case "sweet_delight:sweetberrypretzel":
+            case "sweet_delight:iris_pie_slice":
+            case "sweet_delight:caramel_lolipop":
+            case "sweet_delight:sweet_berry_croussant":
+            case "sweet_delight:sweet_berry_cupcake":
+            case "sweet_delight:sweet_berry_pie":
+            case "sweet_delight:sweet_berry_pie_slice":
+            case "sweet_delight:sweet_berry_pretzel":
                 player.addEffect("instant_health", 1, { amplifier: 0 });
                 break;
 
-            case "sweet_delight:redmarmalade":
-            case "sweet_delight:orangemarmalade":
-            case "sweet_delight:yellowmarmalade":
-            case "sweet_delight:limemarmalade":
-            case "sweet_delight:greenmarmalade":
-            case "sweet_delight:lightbluemarmalade":
-            case "sweet_delight:bluemarmalade":
-            case "sweet_delight:cyanmarmalade":
-            case "sweet_delight:purplemarmalade":
-            case "sweet_delight:magentamarmalade":
-            case "sweet_delight:pinkmarmalade":
-            case "sweet_delight:brownmarmalade":
+            case "sweet_delight:red_marmalade":
+            case "sweet_delight:orange_marmalade":
+            case "sweet_delight:yellow_marmalade":
+            case "sweet_delight:lime_marmalade":
+            case "sweet_delight:green_marmalade":
+            case "sweet_delight:light_blue_marmalade":
+            case "sweet_delight:blue_marmalade":
+            case "sweet_delight:cyan_marmalade":
+            case "sweet_delight:purple_marmalade":
+            case "sweet_delight:magenta_marmalade":
+            case "sweet_delight:pink_marmalade":
+            case "sweet_delight:brown_marmalade":
                 applyMarmaladeEffect(player);
                 break;
         }

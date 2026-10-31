@@ -2,13 +2,13 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "sweet_delight:sweetberryicecreamcraft"
+      "identifier": "sweet_delight:sweet_berry_ice_cream"
     },
     "tags": [
       "crafting_table"
     ],
     "result": {
-      "item": "sweet_delight:sweetberryicecream",
+      "item": "sweet_delight:sweet_berry_ice_cream",
       "count": 3
     },
     "pattern": [

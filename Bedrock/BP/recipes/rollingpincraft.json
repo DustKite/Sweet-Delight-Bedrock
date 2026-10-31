@@ -2,13 +2,13 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "sweet_delight:rollingpincraft"
+      "identifier": "sweet_delight:rolling_pin"
     },
     "tags": [
       "crafting_table"
     ],
     "result": {
-      "item": "sweet_delight:rollingpin",
+      "item": "sweet_delight:rolling_pin",
       "count": 1
     },
     "pattern": [

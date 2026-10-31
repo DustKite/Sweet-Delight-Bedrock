@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "sweet_delight:ingot_form",
+            "menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "sweet_delight:ingot_form"
+                }
+            }
+        }
+    }
+}

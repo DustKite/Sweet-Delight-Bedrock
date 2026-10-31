@@ -7,7 +7,7 @@
     "tags": [
       "smoker"
     ],
-    "input": "sweet_delight:rolledoutwheatdough",
-    "output": "sweet_delight:flatbread"
+    "input": "sweet_delight:rolled_out_wheat_dough",
+    "output": "sweet_delight:flat_bread"
   }
 }

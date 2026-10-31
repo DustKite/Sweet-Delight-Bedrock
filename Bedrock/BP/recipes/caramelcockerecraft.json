@@ -2,13 +2,13 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "sweet_delight:caramelcockerecraft"
+      "identifier": "sweet_delight:caramel_cockerel"
     },
     "tags": [
       "crafting_table"
     ],
     "result": {
-      "item": "sweet_delight:caramel_cockere",
+      "item": "sweet_delight:caramel_cockerel",
       "count": 1
     },
     "pattern": [
@@ -27,7 +27,7 @@
         "item": "minecraft:sugar"
       },
       "d": {
-        "item": "sweet_delight:lolipop"
+        "item": "sweet_delight:caramel_lolipop"
       }
     }
   }

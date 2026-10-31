@@ -2,13 +2,13 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "sweet_delight:sweetberrypretzelcraft"
+      "identifier": "sweet_delight:sweet_berry_pretzel"
     },
     "tags": [
       "crafting_table"
     ],
     "result": {
-      "item": "sweet_delight:sweetberry_pretzel",
+      "item": "sweet_delight:sweet_berry_pretzel",
       "count": 6
     },
     "pattern": [

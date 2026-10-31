@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "sweet_delight:milkicecreamcraft"
+      "identifier": "sweet_delight:milk_ice_cream"
     },
     "tags": [
       "crafting_table"

@@ -2,14 +2,14 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "sweet_delight:rawginderbreadcraft"
+      "identifier": "sweet_delight:raw_ginderbread"
     },
     "tags": [
       "crafting_table"
     ],
     "result": [
       {
-        "item": "sweet_delight:rawginderbread",
+        "item": "sweet_delight:raw_ginderbread",
         "count": 8
       },
       {
@@ -22,7 +22,7 @@
     ],
     "key": {
       "a": {
-        "item": "sweet_delight:rolledoutwheatdough"
+        "item": "sweet_delight:rolled_out_wheat_dough"
       },
       "b": {
         "tag": "farmersdelight:is_condensed_milk"

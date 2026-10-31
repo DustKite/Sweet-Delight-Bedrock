@@ -2,13 +2,13 @@
   "format_version": "1.12",
   "minecraft:recipe_shapeless": {
     "description": {
-      "identifier": "sweet_delight:honeyapplecraft"
+      "identifier": "sweet_delight:honey_apple"
     },
     "tags": [
       "crafting_table"
     ],
     "result": {
-      "item": "sweet_delight:honeyapple",
+      "item": "sweet_delight:honey_apple",
       "count": 1
     },
     "ingredients": [

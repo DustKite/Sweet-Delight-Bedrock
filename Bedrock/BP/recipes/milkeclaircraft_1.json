@@ -2,14 +2,14 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "sweet_delight:milkeclaircraft_1"
+      "identifier": "sweet_delight:milk_eclair"
     },
     "tags": [
       "crafting_table"
     ],
     "result": [
       {
-        "item": "sweet_delight:milkeclair",
+        "item": "sweet_delight:milk_eclair",
         "count": 4
       },
       {

@@ -2,13 +2,13 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "sweet_delight:heartformcraft"
+      "identifier": "sweet_delight:heart_form"
     },
     "tags": [
       "crafting_table"
     ],
     "result": {
-      "item": "sweet_delight:heartform",
+      "item": "sweet_delight:heart_form",
       "count": 1
     },
     "pattern": [

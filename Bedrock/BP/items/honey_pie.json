@@ -1,0 +1,34 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "sweet_delight:honey_pie",
+            "menu_category": {
+                "category": "equipment",
+                "group": "farmersdelight:itemGroup.name.miscFood"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "sweet_delight:honey_pie"
+                }
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "sweet_delight:pies"
+                ]
+            },
+            "minecraft:food": {
+                "nutrition": 8,
+                "saturation_modifier": 0.8,
+                "can_always_eat": false
+            },
+            "minecraft:use_animation": "eat",
+            "minecraft:use_modifiers": {
+                "use_duration": 1.6,
+                "movement_modifier": 0.35
+            }
+        }
+    }
+}

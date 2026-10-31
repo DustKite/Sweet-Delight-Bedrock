@@ -2,13 +2,13 @@
   "format_version": "1.12",
   "minecraft:recipe_shapeless": {
     "description": {
-      "identifier": "sweet_delight:sweet_berry_pankaces_craft"
+      "identifier": "sweet_delight:sweet_berry_pancakes"
     },
     "tags": [
       "crafting_table"
     ],
     "result": {
-      "item": "sweet_delight:sweetberrypancakes",
+      "item": "sweet_delight:sweet_berry_pancakes",
       "count": 1
     },
     "ingredients": [

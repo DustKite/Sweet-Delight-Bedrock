@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "sweet_delight:marshmallowcraft"
+      "identifier": "sweet_delight:marshmallow"
     },
     "tags": [
       "crafting_table"

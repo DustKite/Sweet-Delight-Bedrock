@@ -1,0 +1,29 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "sweet_delight:orange_marmalade",
+            "menu_category": {
+                "category": "equipment",
+                "group": "farmersdelight:itemGroup.name.miscFood"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "sweet_delight:orange_marmalade"
+                }
+            },
+            "minecraft:food": {
+                "nutrition": 2,
+                "saturation_modifier": 0.2,
+                "can_always_eat": false
+            },
+            "minecraft:use_animation": "eat",
+            "minecraft:use_modifiers": {
+                "use_duration": 1.6,
+                "movement_modifier": 0.35
+            }
+        }
+    }
+}

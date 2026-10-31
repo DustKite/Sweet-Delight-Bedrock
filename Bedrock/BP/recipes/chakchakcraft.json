@@ -2,13 +2,13 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "sweet_delight:chakchakcraft"
+      "identifier": "sweet_delight:chak_chak"
     },
     "tags": [
       "crafting_table"
     ],
     "result": {
-      "item": "sweet_delight:chakchak",
+      "item": "sweet_delight:chak_chak",
       "count": 1
     },
     "pattern": [

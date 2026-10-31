@@ -2,13 +2,13 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "sweet_delight:apple_cupcake_craft"
+      "identifier": "sweet_delight:apple_cupcake"
     },
     "tags": [
       "crafting_table"
     ],
     "result": {
-      "item": "sweet_delight:applecupcake",
+      "item": "sweet_delight:apple_cupcake",
       "count": 4
     },
     "pattern": [
@@ -20,7 +20,7 @@
         "item": "minecraft:apple"
       },
       "b": {
-        "item": "sweet_delight:flatbread"
+        "item": "sweet_delight:flat_bread"
       }
     }
   }

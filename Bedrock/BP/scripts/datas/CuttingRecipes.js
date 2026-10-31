@@ -1,15 +1,15 @@
 export const CuttingBoardRecipes = [
     {
         ingredients: {
-            item: "sweet_delight:heartcaramel"
+            item: "sweet_delight:heart_caramel"
         },
         result: [
             {
-                item: "sweet_delight:caramelhalfheartright",
+                item: "sweet_delight:caramel_half_heart_right",
                 count: 1
             },
             {
-                item: "sweet_delight:caramelhalfheartleft",
+                item: "sweet_delight:caramel_half_heart_left",
                 count: 1
             }
         ],
@@ -21,11 +21,11 @@ export const CuttingBoardRecipes = [
     },
     {
         ingredients: {
-            item: "sweet_delight:goldenpie"
+            item: "sweet_delight:golden_pie"
         },
         result: [
             {
-                item: "sweet_delight:goldenpieslice",
+                item: "sweet_delight:golden_pie_slice",
                 count: 4
             }
         ],
@@ -41,39 +41,39 @@ export const CuttingBoardRecipes = [
         },
         result: [
             {
-                item: "sweet_delight:heartcaramel",
+                item: "sweet_delight:heart_caramel",
                 count: 1
             }
         ],
         tool: {
-            item: "sweet_delight:heartform"
+            item: "sweet_delight:heart_form"
         },
         is_block_type: false,
         sound: "use.wood"
     },
     {
         ingredients: {
-            item: "sweet_delight:rawginderbread"
+            item: "sweet_delight:raw_ginderbread"
         },
         result: [
             {
-                item: "sweet_delight:rawginderbreadheart",
+                item: "sweet_delight:raw_ginderbread_heart",
                 count: 2
             }
         ],
         tool: {
-            item: "sweet_delight:heartform"
+            item: "sweet_delight:heart_form"
         },
         is_block_type: false,
         sound: "use.wood"
     },
     {
         ingredients: {
-            item: "sweet_delight:honeypie"
+            item: "sweet_delight:honey_pie"
         },
         result: [
             {
-                item: "sweet_delight:honeypieslice",
+                item: "sweet_delight:honey_pie_slice",
                 count: 4
             }
         ],
@@ -85,27 +85,27 @@ export const CuttingBoardRecipes = [
     },
     {
         ingredients: {
-            item: "sweet_delight:rawginderbread"
+            item: "sweet_delight:raw_ginderbread"
         },
         result: [
             {
-                item: "sweet_delight:rawginderbreadingot",
+                item: "sweet_delight:raw_ginderbread_ingot",
                 count: 2
             }
         ],
         tool: {
-            item: "sweet_delight:ingotform"
+            item: "sweet_delight:ingot_form"
         },
         is_block_type: false,
         sound: "use.wood"
     },
     {
         ingredients: {
-            item: "sweet_delight:irispie"
+            item: "sweet_delight:iris_pie"
         },
         result: [
             {
-                item: "sweet_delight:irispieslice",
+                item: "sweet_delight:iris_pie_slice",
                 count: 4
             }
         ],
@@ -137,7 +137,7 @@ export const CuttingBoardRecipes = [
         },
         result: [
             {
-                item: "sweet_delight:marshmallowslices",
+                item: "sweet_delight:marshmallow_slices",
                 count: 3
             }
         ],
@@ -153,39 +153,39 @@ export const CuttingBoardRecipes = [
         },
         result: [
             {
-                item: "sweet_delight:rolledoutwheatdough",
+                item: "sweet_delight:rolled_out_wheat_dough",
                 count: 2
             }
         ],
         tool: {
-            item: "sweet_delight:rollingpin"
+            item: "sweet_delight:rolling_pin"
         },
         is_block_type: false,
         sound: "use.wood"
     },
     {
         ingredients: {
-            item: "sweet_delight:rawginderbread"
+            item: "sweet_delight:raw_ginderbread"
         },
         result: [
             {
-                item: "sweet_delight:rawginderbreadspruce",
+                item: "sweet_delight:raw_ginderbread_spruce",
                 count: 2
             }
         ],
         tool: {
-            item: "sweet_delight:spruceform"
+            item: "sweet_delight:spruce_form"
         },
         is_block_type: false,
         sound: "use.wood"
     },
     {
         ingredients: {
-            item: "sweet_delight:sweetberrypie"
+            item: "sweet_delight:sweet_berry_pie"
         },
         result: [
             {
-                item: "sweet_delight:sweetberrypieslice",
+                item: "sweet_delight:sweet_berry_pie_slice",
                 count: 4
             }
         ],

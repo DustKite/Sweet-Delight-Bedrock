@@ -2,14 +2,14 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "sweet_delight:waflecookiecraft"
+      "identifier": "sweet_delight:wafle_cookie"
     },
     "tags": [
       "crafting_table"
     ],
     "result": [
       {
-        "item": "sweet_delight:waflecookie",
+        "item": "sweet_delight:wafle_cookie",
         "count": 8
       },
       {
