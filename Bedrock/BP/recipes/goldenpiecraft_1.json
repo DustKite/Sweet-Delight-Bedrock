@@ -21,7 +21,7 @@
         "item": "minecraft:gold_ingot"
       },
       "b": {
-        "tag": "sweet_delight:pies"
+        "item": "minecraft:pumpkin_pie"
       }
     }
   }

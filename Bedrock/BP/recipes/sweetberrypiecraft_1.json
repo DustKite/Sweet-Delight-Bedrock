@@ -7,10 +7,16 @@
     "tags": [
       "crafting_table"
     ],
-    "result": {
-      "item": "sweet_delight:sweetberrypie",
-      "count": 1
-    },
+    "result": [
+      {
+        "item": "sweet_delight:sweetberrypie",
+        "count": 1
+      },
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 1
+      }
+    ],
     "pattern": [
       "aaa",
       "bcb",

@@ -7,10 +7,16 @@
     "tags": [
       "crafting_table"
     ],
-    "result": {
-      "item": "sweet_delight:iris",
-      "count": 5
-    },
+    "result": [
+      {
+        "item": "sweet_delight:iris",
+        "count": 5
+      },
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 1
+      }
+    ],
     "pattern": [
       "abc"
     ],

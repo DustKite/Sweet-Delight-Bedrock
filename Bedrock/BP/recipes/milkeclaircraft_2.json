@@ -2,15 +2,21 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "sweet_delight:milkeclaircraft_0"
+      "identifier": "sweet_delight:milkeclaircraft_2"
     },
     "tags": [
       "crafting_table"
     ],
-    "result": {
-      "item": "sweet_delight:milkeclair",
-      "count": 4
-    },
+    "result": [
+      {
+        "item": "sweet_delight:milkeclair",
+        "count": 4
+      },
+      {
+        "item": "minecraft:bucket",
+        "count": 1
+      }
+    ],
     "pattern": [
       "aba",
       "ccc"
@@ -20,7 +26,7 @@
         "item": "minecraft:milk_bucket"
       },
       "b": {
-        "item": "sweet_delight:condensedmilk"
+        "tag": "farmersdelight:is_condensed_milk"
       },
       "c": {
         "item": "minecraft:bread"

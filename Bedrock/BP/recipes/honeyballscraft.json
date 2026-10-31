@@ -22,10 +22,10 @@
         "item": "minecraft:sugar"
       },
       {
-        "item": "minecraft:egg"
+        "tag": "minecraft:egg"
       },
       {
-        "item": "minecraft:egg"
+        "tag": "minecraft:egg"
       },
       {
         "item": "minecraft:wheat"

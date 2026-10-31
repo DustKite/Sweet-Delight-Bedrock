@@ -7,10 +7,16 @@
     "tags": [
       "crafting_table"
     ],
-    "result": {
-      "item": "sweet_delight:milk_ice_cream",
-      "count": 3
-    },
+    "result": [
+      {
+        "item": "sweet_delight:milk_ice_cream",
+        "count": 3
+      },
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 1
+      }
+    ],
     "pattern": [
       "a",
       "b",
@@ -18,7 +24,7 @@
     ],
     "key": {
       "a": {
-        "item": "sweet_delight:condensedmilk"
+        "tag": "farmersdelight:is_condensed_milk"
       },
       "b": {
         "item": "minecraft:powder_snow_bucket"

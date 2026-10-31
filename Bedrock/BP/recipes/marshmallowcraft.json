@@ -17,7 +17,7 @@
     ],
     "key": {
       "a": {
-        "item": "minecraft:egg"
+        "tag": "minecraft:egg"
       },
       "b": {
         "item": "minecraft:sugar"

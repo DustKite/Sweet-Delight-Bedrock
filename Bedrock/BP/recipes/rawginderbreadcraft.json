@@ -7,10 +7,16 @@
     "tags": [
       "crafting_table"
     ],
-    "result": {
-      "item": "sweet_delight:rawginderbread",
-      "count": 8
-    },
+    "result": [
+      {
+        "item": "sweet_delight:rawginderbread",
+        "count": 8
+      },
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 1
+      }
+    ],
     "pattern": [
       "aba"
     ],
@@ -19,7 +25,7 @@
         "item": "sweet_delight:rolledoutwheatdough"
       },
       "b": {
-        "item": "sweet_delight:condensedmilk"
+        "tag": "farmersdelight:is_condensed_milk"
       }
     }
   }

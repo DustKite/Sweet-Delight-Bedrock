@@ -1,0 +1,40 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sweet_delight:sweetberrypiecraft_2"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "result": [
+      {
+        "item": "sweet_delight:sweetberrypie",
+        "count": 1
+      },
+      {
+        "item": "minecraft:bucket",
+        "count": 1
+      }
+    ],
+    "pattern": [
+      "aaa",
+      "bcb",
+      "ddd"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:sweet_berries"
+      },
+      "b": {
+        "item": "minecraft:sugar"
+      },
+      "c": {
+        "item": "minecraft:milk_bucket"
+      },
+      "d": {
+        "item": "minecraft:wheat"
+      }
+    }
+  }
+}

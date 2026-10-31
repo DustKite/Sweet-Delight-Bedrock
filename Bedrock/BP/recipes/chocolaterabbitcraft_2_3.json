@@ -1,0 +1,31 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sweet_delight:chocolaterabbitcraft_2_3"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "result": {
+      "item": "sweet_delight:chocolaterabbit",
+      "count": 2
+    },
+    "pattern": [
+      "a a",
+      "bcb",
+      "aaa"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:cocoa_beans"
+      },
+      "b": {
+        "item": "minecraft:sugar"
+      },
+      "c": {
+        "tag": "farmersdelight:is_milk"
+      }
+    }
+  }
+}

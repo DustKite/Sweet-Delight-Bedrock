@@ -7,10 +7,16 @@
     "tags": [
       "crafting_table"
     ],
-    "result": {
-      "item": "sweet_delight:pudding",
-      "count": 1
-    },
+    "result": [
+      {
+        "item": "sweet_delight:pudding",
+        "count": 1
+      },
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 1
+      }
+    ],
     "ingredients": [
       {
         "item": "minecraft:cocoa_beans"
@@ -25,7 +31,7 @@
         "item": "minecraft:sugar"
       },
       {
-        "item": "minecraft:egg"
+        "tag": "minecraft:egg"
       },
       {
         "item": "minecraft:bowl"
