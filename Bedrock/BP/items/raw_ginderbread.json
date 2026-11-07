@@ -5,7 +5,7 @@
             "identifier": "sweet_delight:raw_ginderbread",
             "menu_category": {
                 "category": "equipment",
-                "group": "farmersdelight:itemGroup.name.miscFood"
+                "group": "sweet_delight:itemGroup.name.food"
             }
         },
         "components": {

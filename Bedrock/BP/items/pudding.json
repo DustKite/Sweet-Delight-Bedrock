@@ -5,7 +5,7 @@
             "identifier": "sweet_delight:pudding",
             "menu_category": {
                 "category": "equipment",
-                "group": "farmersdelight:itemGroup.name.miscFood"
+                "group": "sweet_delight:itemGroup.name.food"
             }
         },
         "components": {

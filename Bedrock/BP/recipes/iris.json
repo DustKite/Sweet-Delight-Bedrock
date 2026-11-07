@@ -1,0 +1,35 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sweet_delight:iris"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "result": [
+      {
+        "item": "sweet_delight:iris",
+        "count": 5
+      },
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 2
+      }
+    ],
+    "pattern": [
+      "abc"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:sugar"
+      },
+      "b": {
+        "tag": "farmersdelight:is_milk"
+      },
+      "c": {
+        "item": "minecraft:honey_bottle"
+      }
+    }
+  }
+}

@@ -51,7 +51,7 @@
         "description": {
             "basic_render_parameters": {
                 "material": "particles_alpha",
-                "texture": "textures/items/sweet_delight/sugar"
+                "texture": "textures/items/sugar"
             },
             "identifier": "farmersdelight:minecraft_stove_sugar"
         }

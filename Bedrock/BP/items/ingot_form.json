@@ -4,7 +4,8 @@
         "description": {
             "identifier": "sweet_delight:ingot_form",
             "menu_category": {
-                "category": "items"
+                "category": "items",
+                "group": "farmersdelight:itemGroup.name.miscItem"
             }
         },
         "components": {

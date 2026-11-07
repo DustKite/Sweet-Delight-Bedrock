@@ -1,0 +1,40 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sweet_delight:chak_chak"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "result": [
+      {
+        "item": "sweet_delight:chak_chak",
+        "count": 1
+      },
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 2
+      }
+    ],
+    "pattern": [
+      "aba",
+      "ccc",
+      " d "
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:honey_bottle"
+      },
+      "b": {
+        "item": "minecraft:glow_berries"
+      },
+      "c": {
+        "item": "farmersdelight:rice"
+      },
+      "d": {
+        "item": "minecraft:bowl"
+      }
+    }
+  }
+}

@@ -4,8 +4,8 @@
         "description": {
             "identifier": "sweet_delight:rolling_pin",
             "menu_category": {
-                "category": "equipment",
-                "group": "itemGroup.name.sword"
+                "category": "items",
+                "group": "farmersdelight:itemGroup.name.miscItem"
             }
         },
         "components": {
@@ -18,8 +18,44 @@
             "minecraft:durability": {
                 "max_durability": 59
             },
+            "minecraft:enchantable": {
+                "slot": "pickaxe",
+                "value": 2
+            },
             "minecraft:damage": 6,
-            "minecraft:hand_equipped": true
+            "minecraft:hand_equipped": true,
+            "minecraft:digger": {
+                "destroy_speeds": [
+                    {
+                        "block": "minecraft:skeleton_skull",
+                        "speed": 4
+                    },
+                    {
+                        "block": "minecraft:wither_skeleton_skull",
+                        "speed": 4
+                    },
+                    {
+                        "block": "minecraft:zombie_head",
+                        "speed": 4
+                    },
+                    {
+                        "block": "minecraft:player_head",
+                        "speed": 4
+                    },
+                    {
+                        "block": "minecraft:creeper_head",
+                        "speed": 4
+                    },
+                    {
+                        "block": "minecraft:dragon_head",
+                        "speed": 4
+                    },
+                    {
+                        "block": "minecraft:piglin_head",
+                        "speed": 4
+                    }
+                ]
+            }
         }
     }
 }

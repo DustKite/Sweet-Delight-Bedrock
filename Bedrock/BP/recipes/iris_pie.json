@@ -1,0 +1,43 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sweet_delight:iris_pie"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "result": [
+      {
+        "item": "sweet_delight:iris_pie",
+        "count": 1
+      },
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 2
+      }
+    ],
+    "pattern": [
+      "aaa",
+      "bcb",
+      "ded"
+    ],
+    "key": {
+      "a": {
+        "item": "sweet_delight:iris"
+      },
+      "b": {
+        "tag": "farmersdelight:is_milk"
+      },
+      "c": {
+        "item": "minecraft:sugar"
+      },
+      "d": {
+        "item": "minecraft:wheat"
+      },
+      "e": {
+        "item": "farmersdelight:pie_crust"
+      }
+    }
+  }
+}

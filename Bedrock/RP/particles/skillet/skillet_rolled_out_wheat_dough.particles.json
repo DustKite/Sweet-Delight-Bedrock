@@ -53,7 +53,7 @@
                 "material": "particles_alpha",
                 "texture": "textures/items/sweet_delight/rolled_out_wheat_dough"
             },
-            "identifier": "sweet_delight:rolled_out_wheat_dough"
+            "identifier": "sweet_delight:skillet_rolled_out_wheat_dough"
         }
     }
 }

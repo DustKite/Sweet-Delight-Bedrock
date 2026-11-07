@@ -5,7 +5,7 @@
             "identifier": "sweet_delight:caramel_axe",
             "menu_category": {
                 "category": "equipment",
-                "group": "itemGroup.name.sword"
+                "group": "minecraft:itemGroup.name.axe"
             }
         },
         "components": {
@@ -18,8 +18,71 @@
             "minecraft:durability": {
                 "max_durability": 10
             },
-            "minecraft:damage": 4,
-            "minecraft:hand_equipped": true
+            "minecraft:enchantable": {
+                "slot": "axe",
+                "value": 15
+            },
+            "minecraft:damage": 3,
+            "minecraft:hand_equipped": true,
+            "minecraft:digger": {
+                "use_efficiency": true,
+                "destroy_speeds": [
+                    {
+                        "block": {
+                            "tags": "q.any_tag('wood')"
+                        },
+                        "speed": 2
+                    },
+                    {
+                        "block": "minecraft:oak_planks",
+                        "speed": 2
+                    },
+                    {
+                        "block": "minecraft:spruce_planks",
+                        "speed": 2
+                    },
+                    {
+                        "block": "minecraft:birch_planks",
+                        "speed": 2
+                    },
+                    {
+                        "block": "minecraft:jungle_planks",
+                        "speed": 2
+                    },
+                    {
+                        "block": "minecraft:acacia_planks",
+                        "speed": 2
+                    },
+                    {
+                        "block": "minecraft:dark_oak_planks",
+                        "speed": 2
+                    },
+                    {
+                        "block": "minecraft:mangrove_planks",
+                        "speed": 2
+                    },
+                    {
+                        "block": "minecraft:cherry_planks",
+                        "speed": 2
+                    },
+                    {
+                        "block": "minecraft:pale_oak_planks",
+                        "speed": 2
+                    },
+                    {
+                        "block": "minecraft:bamboo_planks",
+                        "speed": 2
+                    },
+                    {
+                        "block": "minecraft:crimson_planks",
+                        "speed": 2
+                    },
+                    {
+                        "block": "minecraft:warped_planks",
+                        "speed": 2
+                    }
+                ]
+            }
         }
     }
 }

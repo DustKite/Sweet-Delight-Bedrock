@@ -1,0 +1,3114 @@
+{
+  "2_fps": {
+    "anim_type": "flip_book",
+    "initial_uv": [
+      0,
+      0
+    ],
+    "frame_count": 2,
+    "frame_step": 16,
+    "fps": 1,
+    "reversible": true,
+    "easing": "linear"
+  },
+  "is_milk": {
+    "type": "image",
+    "texture": "textures/gui/is_milk",
+    "uv": "@cooking_pot.2_fps",
+    "uv_size": [
+      16,
+      16
+    ],
+    "disable_anim_fast_forward": true
+  },
+  "sweet_delight_recipe_part_0": {
+    "type": "panel",
+    "size": [
+      150,
+      38
+    ],
+    "controls": [
+      {
+        "bitter_chocolate@cooking_pot.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "size": [
+            75,
+            38
+          ],
+          "offset": [
+            -37.5,
+            0
+          ],
+          "controls": [
+            {
+              "recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                "controls": [
+                  {
+                    "cell0": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/dye_powder_brown"
+                    }
+                  },
+                  {
+                    "cell1": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/dye_powder_brown"
+                    }
+                  },
+                  {
+                    "cell2": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/dye_powder_brown"
+                    }
+                  },
+                  {
+                    "cell3": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell4": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/dye_powder_brown"
+                    }
+                  },
+                  {
+                    "result": {
+                      "type": "image",
+                      "offset": [
+                        21,
+                        -5.25
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sweet_delight/bitter_chocolate"
+                    }
+                  },
+                  {
+                    "count": {
+                      "type": "label",
+                      "text": "2",
+                      "font_scale_factor": 0.5,
+                      "size": [
+                        15,
+                        15
+                      ],
+                      "offset": [
+                        31,
+                        2
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "caramel_cockerel@cooking_pot.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "size": [
+            75,
+            38
+          ],
+          "offset": [
+            37.5,
+            0
+          ],
+          "controls": [
+            {
+              "recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                "controls": [
+                  {
+                    "cell0": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sweet_delight/caramel"
+                    }
+                  },
+                  {
+                    "cell1": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sweet_delight/caramel"
+                    }
+                  },
+                  {
+                    "cell2": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/feather"
+                    }
+                  },
+                  {
+                    "cell3": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell4": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "container": {
+                      "type": "image",
+                      "offset": [
+                        6,
+                        10.875
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/stick"
+                    }
+                  },
+                  {
+                    "result": {
+                      "type": "image",
+                      "offset": [
+                        21,
+                        -5.25
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sweet_delight/caramel_cockerel"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "sweet_delight_recipe_part_1": {
+    "type": "panel",
+    "size": [
+      150,
+      38
+    ],
+    "controls": [
+      {
+        "blue_marmalade@cooking_pot.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "size": [
+            75,
+            38
+          ],
+          "offset": [
+            -37.5,
+            0
+          ],
+          "controls": [
+            {
+              "recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                "controls": [
+                  {
+                    "cell0": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/dye_powder_blue_new"
+                    }
+                  },
+                  {
+                    "cell1": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell2": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell3": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell4": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/slimeball"
+                    }
+                  },
+                  {
+                    "cell5": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/porkchop_raw"
+                    }
+                  },
+                  {
+                    "result": {
+                      "type": "image",
+                      "offset": [
+                        21,
+                        -5.25
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sweet_delight/blue_marmalade"
+                    }
+                  },
+                  {
+                    "count": {
+                      "type": "label",
+                      "text": "16",
+                      "font_scale_factor": 0.5,
+                      "size": [
+                        15,
+                        15
+                      ],
+                      "offset": [
+                        31,
+                        2
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "brown_marmalade@cooking_pot.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "size": [
+            75,
+            38
+          ],
+          "offset": [
+            37.5,
+            0
+          ],
+          "controls": [
+            {
+              "recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                "controls": [
+                  {
+                    "cell0": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/dye_powder_brown_new"
+                    }
+                  },
+                  {
+                    "cell1": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell2": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell3": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell4": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/slimeball"
+                    }
+                  },
+                  {
+                    "cell5": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/porkchop_raw"
+                    }
+                  },
+                  {
+                    "result": {
+                      "type": "image",
+                      "offset": [
+                        21,
+                        -5.25
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sweet_delight/brown_marmalade"
+                    }
+                  },
+                  {
+                    "count": {
+                      "type": "label",
+                      "text": "16",
+                      "font_scale_factor": 0.5,
+                      "size": [
+                        15,
+                        15
+                      ],
+                      "offset": [
+                        31,
+                        2
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "sweet_delight_recipe_part_2": {
+    "type": "panel",
+    "size": [
+      150,
+      38
+    ],
+    "controls": [
+      {
+        "caramel_apple@cooking_pot.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "size": [
+            75,
+            38
+          ],
+          "offset": [
+            -37.5,
+            0
+          ],
+          "controls": [
+            {
+              "recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                "controls": [
+                  {
+                    "cell0": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sweet_delight/caramel"
+                    }
+                  },
+                  {
+                    "cell1": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sweet_delight/caramel"
+                    }
+                  },
+                  {
+                    "cell2": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sweet_delight/caramel"
+                    }
+                  },
+                  {
+                    "cell3": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/apple"
+                    }
+                  },
+                  {
+                    "result": {
+                      "type": "image",
+                      "offset": [
+                        21,
+                        -5.25
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sweet_delight/caramel_apple"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "chocolate@cooking_pot.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "size": [
+            75,
+            38
+          ],
+          "offset": [
+            37.5,
+            0
+          ],
+          "controls": [
+            {
+              "recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                "controls": [
+                  {
+                    "cell0": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell1@cooking_pot.is_milk": {
+                      "offset": [
+                        -14.625,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ]
+                    }
+                  },
+                  {
+                    "cell2": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/dye_powder_brown"
+                    }
+                  },
+                  {
+                    "cell3": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/dye_powder_brown"
+                    }
+                  },
+                  {
+                    "cell4": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/dye_powder_brown"
+                    }
+                  },
+                  {
+                    "result": {
+                      "type": "image",
+                      "offset": [
+                        21,
+                        -5.25
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sweet_delight/chocolate"
+                    }
+                  },
+                  {
+                    "count": {
+                      "type": "label",
+                      "text": "2",
+                      "font_scale_factor": 0.5,
+                      "size": [
+                        15,
+                        15
+                      ],
+                      "offset": [
+                        31,
+                        2
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "sweet_delight_recipe_part_3": {
+    "type": "panel",
+    "size": [
+      150,
+      38
+    ],
+    "controls": [
+      {
+        "chocolate_glaze@cooking_pot.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "size": [
+            75,
+            38
+          ],
+          "offset": [
+            -37.5,
+            0
+          ],
+          "controls": [
+            {
+              "recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                "controls": [
+                  {
+                    "cell0": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/dye_powder_brown"
+                    }
+                  },
+                  {
+                    "cell1": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/dye_powder_brown"
+                    }
+                  },
+                  {
+                    "cell2": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/dye_powder_brown"
+                    }
+                  },
+                  {
+                    "cell3": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell4": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell5": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "container": {
+                      "type": "image",
+                      "offset": [
+                        6,
+                        10.875
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/potion_bottle_empty"
+                    }
+                  },
+                  {
+                    "result": {
+                      "type": "image",
+                      "offset": [
+                        21,
+                        -5.25
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sweet_delight/chocolate_glaze"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "clean_chocolate@cooking_pot.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "size": [
+            75,
+            38
+          ],
+          "offset": [
+            37.5,
+            0
+          ],
+          "controls": [
+            {
+              "recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                "controls": [
+                  {
+                    "cell0": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/dye_powder_brown"
+                    }
+                  },
+                  {
+                    "cell1": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/dye_powder_brown"
+                    }
+                  },
+                  {
+                    "cell2": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/dye_powder_brown"
+                    }
+                  },
+                  {
+                    "cell3": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/dye_powder_brown"
+                    }
+                  },
+                  {
+                    "result": {
+                      "type": "image",
+                      "offset": [
+                        21,
+                        -5.25
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sweet_delight/clean_chocolate"
+                    }
+                  },
+                  {
+                    "count": {
+                      "type": "label",
+                      "text": "2",
+                      "font_scale_factor": 0.5,
+                      "size": [
+                        15,
+                        15
+                      ],
+                      "offset": [
+                        31,
+                        2
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "sweet_delight_recipe_part_4": {
+    "type": "panel",
+    "size": [
+      150,
+      38
+    ],
+    "controls": [
+      {
+        "condensed_milk@cooking_pot.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "size": [
+            75,
+            38
+          ],
+          "offset": [
+            -37.5,
+            0
+          ],
+          "controls": [
+            {
+              "recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                "controls": [
+                  {
+                    "cell0@cooking_pot.is_milk": {
+                      "offset": [
+                        -23,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ]
+                    }
+                  },
+                  {
+                    "cell1@cooking_pot.is_milk": {
+                      "offset": [
+                        -14.625,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ]
+                    }
+                  },
+                  {
+                    "cell2@cooking_pot.is_milk": {
+                      "offset": [
+                        -6.25,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ]
+                    }
+                  },
+                  {
+                    "cell3": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell4": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell5": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "container": {
+                      "type": "image",
+                      "offset": [
+                        6,
+                        10.875
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/potion_bottle_empty"
+                    }
+                  },
+                  {
+                    "result": {
+                      "type": "image",
+                      "offset": [
+                        21,
+                        -5.25
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sweet_delight/condensed_milk"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "cyan_marmalade@cooking_pot.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "size": [
+            75,
+            38
+          ],
+          "offset": [
+            37.5,
+            0
+          ],
+          "controls": [
+            {
+              "recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                "controls": [
+                  {
+                    "cell0": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/dye_powder_cyan"
+                    }
+                  },
+                  {
+                    "cell1": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell2": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell3": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell4": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/slimeball"
+                    }
+                  },
+                  {
+                    "cell5": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/porkchop_raw"
+                    }
+                  },
+                  {
+                    "result": {
+                      "type": "image",
+                      "offset": [
+                        21,
+                        -5.25
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sweet_delight/cyan_marmalade"
+                    }
+                  },
+                  {
+                    "count": {
+                      "type": "label",
+                      "text": "16",
+                      "font_scale_factor": 0.5,
+                      "size": [
+                        15,
+                        15
+                      ],
+                      "offset": [
+                        31,
+                        2
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "sweet_delight_recipe_part_5": {
+    "type": "panel",
+    "size": [
+      150,
+      38
+    ],
+    "controls": [
+      {
+        "green_marmalade@cooking_pot.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "size": [
+            75,
+            38
+          ],
+          "offset": [
+            -37.5,
+            0
+          ],
+          "controls": [
+            {
+              "recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                "controls": [
+                  {
+                    "cell0": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/dye_powder_green"
+                    }
+                  },
+                  {
+                    "cell1": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell2": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell3": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell4": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/slimeball"
+                    }
+                  },
+                  {
+                    "cell5": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/porkchop_raw"
+                    }
+                  },
+                  {
+                    "result": {
+                      "type": "image",
+                      "offset": [
+                        21,
+                        -5.25
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sweet_delight/green_marmalade"
+                    }
+                  },
+                  {
+                    "count": {
+                      "type": "label",
+                      "text": "16",
+                      "font_scale_factor": 0.5,
+                      "size": [
+                        15,
+                        15
+                      ],
+                      "offset": [
+                        31,
+                        2
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "light_blue_marmalade@cooking_pot.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "size": [
+            75,
+            38
+          ],
+          "offset": [
+            37.5,
+            0
+          ],
+          "controls": [
+            {
+              "recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                "controls": [
+                  {
+                    "cell0": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/dye_powder_light_blue"
+                    }
+                  },
+                  {
+                    "cell1": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell2": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell3": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell4": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/slimeball"
+                    }
+                  },
+                  {
+                    "cell5": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/porkchop_raw"
+                    }
+                  },
+                  {
+                    "result": {
+                      "type": "image",
+                      "offset": [
+                        21,
+                        -5.25
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sweet_delight/light_blue_marmalade"
+                    }
+                  },
+                  {
+                    "count": {
+                      "type": "label",
+                      "text": "16",
+                      "font_scale_factor": 0.5,
+                      "size": [
+                        15,
+                        15
+                      ],
+                      "offset": [
+                        31,
+                        2
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "sweet_delight_recipe_part_6": {
+    "type": "panel",
+    "size": [
+      150,
+      38
+    ],
+    "controls": [
+      {
+        "lime_marmalade@cooking_pot.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "size": [
+            75,
+            38
+          ],
+          "offset": [
+            -37.5,
+            0
+          ],
+          "controls": [
+            {
+              "recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                "controls": [
+                  {
+                    "cell0": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/dye_powder_lime"
+                    }
+                  },
+                  {
+                    "cell1": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell2": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell3": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell4": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/slimeball"
+                    }
+                  },
+                  {
+                    "cell5": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/porkchop_raw"
+                    }
+                  },
+                  {
+                    "result": {
+                      "type": "image",
+                      "offset": [
+                        21,
+                        -5.25
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sweet_delight/lime_marmalade"
+                    }
+                  },
+                  {
+                    "count": {
+                      "type": "label",
+                      "text": "16",
+                      "font_scale_factor": 0.5,
+                      "size": [
+                        15,
+                        15
+                      ],
+                      "offset": [
+                        31,
+                        2
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "magenta_marmalade@cooking_pot.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "size": [
+            75,
+            38
+          ],
+          "offset": [
+            37.5,
+            0
+          ],
+          "controls": [
+            {
+              "recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                "controls": [
+                  {
+                    "cell0": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/dye_powder_magenta"
+                    }
+                  },
+                  {
+                    "cell1": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell2": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell3": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell4": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/slimeball"
+                    }
+                  },
+                  {
+                    "cell5": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/porkchop_raw"
+                    }
+                  },
+                  {
+                    "result": {
+                      "type": "image",
+                      "offset": [
+                        21,
+                        -5.25
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sweet_delight/magenta_marmalade"
+                    }
+                  },
+                  {
+                    "count": {
+                      "type": "label",
+                      "text": "16",
+                      "font_scale_factor": 0.5,
+                      "size": [
+                        15,
+                        15
+                      ],
+                      "offset": [
+                        31,
+                        2
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "sweet_delight_recipe_part_7": {
+    "type": "panel",
+    "size": [
+      150,
+      38
+    ],
+    "controls": [
+      {
+        "milk_chocolate@cooking_pot.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "size": [
+            75,
+            38
+          ],
+          "offset": [
+            -37.5,
+            0
+          ],
+          "controls": [
+            {
+              "recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                "controls": [
+                  {
+                    "cell0": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell1@cooking_pot.is_milk": {
+                      "offset": [
+                        -14.625,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ]
+                    }
+                  },
+                  {
+                    "cell2@cooking_pot.is_milk": {
+                      "offset": [
+                        -6.25,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ]
+                    }
+                  },
+                  {
+                    "cell3@cooking_pot.is_milk": {
+                      "offset": [
+                        -23,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ]
+                    }
+                  },
+                  {
+                    "cell4": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/dye_powder_brown"
+                    }
+                  },
+                  {
+                    "cell5": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/dye_powder_brown"
+                    }
+                  },
+                  {
+                    "result": {
+                      "type": "image",
+                      "offset": [
+                        21,
+                        -5.25
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sweet_delight/milk_chocolate"
+                    }
+                  },
+                  {
+                    "count": {
+                      "type": "label",
+                      "text": "2",
+                      "font_scale_factor": 0.5,
+                      "size": [
+                        15,
+                        15
+                      ],
+                      "offset": [
+                        31,
+                        2
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "orange_marmalade@cooking_pot.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "size": [
+            75,
+            38
+          ],
+          "offset": [
+            37.5,
+            0
+          ],
+          "controls": [
+            {
+              "recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                "controls": [
+                  {
+                    "cell0": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/dye_powder_orange"
+                    }
+                  },
+                  {
+                    "cell1": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell2": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell3": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell4": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/slimeball"
+                    }
+                  },
+                  {
+                    "cell5": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/porkchop_raw"
+                    }
+                  },
+                  {
+                    "result": {
+                      "type": "image",
+                      "offset": [
+                        21,
+                        -5.25
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sweet_delight/orange_marmalade"
+                    }
+                  },
+                  {
+                    "count": {
+                      "type": "label",
+                      "text": "16",
+                      "font_scale_factor": 0.5,
+                      "size": [
+                        15,
+                        15
+                      ],
+                      "offset": [
+                        31,
+                        2
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "sweet_delight_recipe_part_8": {
+    "type": "panel",
+    "size": [
+      150,
+      38
+    ],
+    "controls": [
+      {
+        "pink_marmalade@cooking_pot.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "size": [
+            75,
+            38
+          ],
+          "offset": [
+            -37.5,
+            0
+          ],
+          "controls": [
+            {
+              "recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                "controls": [
+                  {
+                    "cell0": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/dye_powder_pink"
+                    }
+                  },
+                  {
+                    "cell1": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell2": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell3": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell4": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/slimeball"
+                    }
+                  },
+                  {
+                    "cell5": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/porkchop_raw"
+                    }
+                  },
+                  {
+                    "result": {
+                      "type": "image",
+                      "offset": [
+                        21,
+                        -5.25
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sweet_delight/pink_marmalade"
+                    }
+                  },
+                  {
+                    "count": {
+                      "type": "label",
+                      "text": "16",
+                      "font_scale_factor": 0.5,
+                      "size": [
+                        15,
+                        15
+                      ],
+                      "offset": [
+                        31,
+                        2
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "poppy_halva@cooking_pot.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "size": [
+            75,
+            38
+          ],
+          "offset": [
+            37.5,
+            0
+          ],
+          "controls": [
+            {
+              "recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                "controls": [
+                  {
+                    "cell0": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/blocks/flower_rose"
+                    }
+                  },
+                  {
+                    "cell1": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/blocks/flower_rose"
+                    }
+                  },
+                  {
+                    "cell2": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/blocks/flower_rose"
+                    }
+                  },
+                  {
+                    "cell3": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell4": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell5": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "result": {
+                      "type": "image",
+                      "offset": [
+                        21,
+                        -5.25
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sweet_delight/poppy_halva"
+                    }
+                  },
+                  {
+                    "count": {
+                      "type": "label",
+                      "text": "2",
+                      "font_scale_factor": 0.5,
+                      "size": [
+                        15,
+                        15
+                      ],
+                      "offset": [
+                        31,
+                        2
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "sweet_delight_recipe_part_9": {
+    "type": "panel",
+    "size": [
+      150,
+      38
+    ],
+    "controls": [
+      {
+        "purple_marmalade@cooking_pot.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "size": [
+            75,
+            38
+          ],
+          "offset": [
+            -37.5,
+            0
+          ],
+          "controls": [
+            {
+              "recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                "controls": [
+                  {
+                    "cell0": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/dye_powder_purple"
+                    }
+                  },
+                  {
+                    "cell1": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell2": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell3": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell4": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/slimeball"
+                    }
+                  },
+                  {
+                    "cell5": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/porkchop_raw"
+                    }
+                  },
+                  {
+                    "result": {
+                      "type": "image",
+                      "offset": [
+                        21,
+                        -5.25
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sweet_delight/purple_marmalade"
+                    }
+                  },
+                  {
+                    "count": {
+                      "type": "label",
+                      "text": "16",
+                      "font_scale_factor": 0.5,
+                      "size": [
+                        15,
+                        15
+                      ],
+                      "offset": [
+                        31,
+                        2
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "red_marmalade@cooking_pot.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "size": [
+            75,
+            38
+          ],
+          "offset": [
+            37.5,
+            0
+          ],
+          "controls": [
+            {
+              "recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                "controls": [
+                  {
+                    "cell0": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/dye_powder_red"
+                    }
+                  },
+                  {
+                    "cell1": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell2": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell3": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell4": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/slimeball"
+                    }
+                  },
+                  {
+                    "cell5": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/porkchop_raw"
+                    }
+                  },
+                  {
+                    "result": {
+                      "type": "image",
+                      "offset": [
+                        21,
+                        -5.25
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sweet_delight/red_marmalade"
+                    }
+                  },
+                  {
+                    "count": {
+                      "type": "label",
+                      "text": "16",
+                      "font_scale_factor": 0.5,
+                      "size": [
+                        15,
+                        15
+                      ],
+                      "offset": [
+                        31,
+                        2
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "sweet_delight_recipe_part_10": {
+    "type": "panel",
+    "size": [
+      150,
+      38
+    ],
+    "controls": [
+      {
+        "sunflower_halva@cooking_pot.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "size": [
+            75,
+            38
+          ],
+          "offset": [
+            -37.5,
+            0
+          ],
+          "controls": [
+            {
+              "recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                "controls": [
+                  {
+                    "cell0": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/blocks/double_plant_sunflower_front"
+                    }
+                  },
+                  {
+                    "cell1": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/blocks/double_plant_sunflower_front"
+                    }
+                  },
+                  {
+                    "cell2": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell3": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell4": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "result": {
+                      "type": "image",
+                      "offset": [
+                        21,
+                        -5.25
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sweet_delight/sunflower_halva"
+                    }
+                  },
+                  {
+                    "count": {
+                      "type": "label",
+                      "text": "2",
+                      "font_scale_factor": 0.5,
+                      "size": [
+                        15,
+                        15
+                      ],
+                      "offset": [
+                        31,
+                        2
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "sweet_berry_chocolate@cooking_pot.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "size": [
+            75,
+            38
+          ],
+          "offset": [
+            37.5,
+            0
+          ],
+          "controls": [
+            {
+              "recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                "controls": [
+                  {
+                    "cell0@cooking_pot.is_milk": {
+                      "offset": [
+                        -23,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ]
+                    }
+                  },
+                  {
+                    "cell1": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sweet_berries"
+                    }
+                  },
+                  {
+                    "cell2": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sweet_berries"
+                    }
+                  },
+                  {
+                    "cell3": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sweet_berries"
+                    }
+                  },
+                  {
+                    "cell4": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/dye_powder_brown"
+                    }
+                  },
+                  {
+                    "cell5": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/dye_powder_brown"
+                    }
+                  },
+                  {
+                    "result": {
+                      "type": "image",
+                      "offset": [
+                        21,
+                        -5.25
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sweet_delight/sweet_berry_chocolate"
+                    }
+                  },
+                  {
+                    "count": {
+                      "type": "label",
+                      "text": "2",
+                      "font_scale_factor": 0.5,
+                      "size": [
+                        15,
+                        15
+                      ],
+                      "offset": [
+                        31,
+                        2
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "sweet_delight_recipe_part_11": {
+    "type": "panel",
+    "size": [
+      150,
+      38
+    ],
+    "controls": [
+      {
+        "yellow_marmalade@cooking_pot.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "size": [
+            75,
+            38
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "controls": [
+            {
+              "recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                "controls": [
+                  {
+                    "cell0": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/dye_powder_yellow"
+                    }
+                  },
+                  {
+                    "cell1": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell2": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell3": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sugar"
+                    }
+                  },
+                  {
+                    "cell4": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/slimeball"
+                    }
+                  },
+                  {
+                    "cell5": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/porkchop_raw"
+                    }
+                  },
+                  {
+                    "result": {
+                      "type": "image",
+                      "offset": [
+                        21,
+                        -5.25
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/sweet_delight/yellow_marmalade"
+                    }
+                  },
+                  {
+                    "count": {
+                      "type": "label",
+                      "text": "16",
+                      "font_scale_factor": 0.5,
+                      "size": [
+                        15,
+                        15
+                      ],
+                      "offset": [
+                        31,
+                        2
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "recipe_grid_panel": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_back",
+        "value": [
+          {
+            "sweet_delight_grid_0@cooking_pot.sweet_delight_recipe_part_0": {}
+          },
+          {
+            "sweet_delight_grid_1@cooking_pot.sweet_delight_recipe_part_1": {}
+          },
+          {
+            "sweet_delight_grid_2@cooking_pot.sweet_delight_recipe_part_2": {}
+          },
+          {
+            "sweet_delight_grid_3@cooking_pot.sweet_delight_recipe_part_3": {}
+          },
+          {
+            "sweet_delight_grid_4@cooking_pot.sweet_delight_recipe_part_4": {}
+          },
+          {
+            "sweet_delight_grid_5@cooking_pot.sweet_delight_recipe_part_5": {}
+          },
+          {
+            "sweet_delight_grid_6@cooking_pot.sweet_delight_recipe_part_6": {}
+          },
+          {
+            "sweet_delight_grid_7@cooking_pot.sweet_delight_recipe_part_7": {}
+          },
+          {
+            "sweet_delight_grid_8@cooking_pot.sweet_delight_recipe_part_8": {}
+          },
+          {
+            "sweet_delight_grid_9@cooking_pot.sweet_delight_recipe_part_9": {}
+          },
+          {
+            "sweet_delight_grid_10@cooking_pot.sweet_delight_recipe_part_10": {}
+          },
+          {
+            "sweet_delight_grid_11@cooking_pot.sweet_delight_recipe_part_11": {}
+          }
+        ]
+      }
+    ]
+  }
+}

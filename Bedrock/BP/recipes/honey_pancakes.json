@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sweet_delight:honey_pancakes"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "result": [
+      {
+        "item": "sweet_delight:honey_pancakes",
+        "count": 1
+      },
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 1
+      }
+    ],
+    "pattern": [
+      "a",
+      "b"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:honey_bottle"
+      },
+      "b": {
+        "item": "sweet_delight:pancakes"
+      }
+    }
+  }
+}

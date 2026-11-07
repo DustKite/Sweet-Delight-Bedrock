@@ -5,7 +5,7 @@
             "identifier": "sweet_delight:golden_pie_slice",
             "menu_category": {
                 "category": "equipment",
-                "group": "farmersdelight:itemGroup.name.miscFood"
+                "group": "sweet_delight:itemGroup.name.food"
             }
         },
         "components": {
@@ -14,12 +14,12 @@
                     "default": "sweet_delight:golden_pie_slice"
                 }
             },
-            "minecraft:glint": true,
             "minecraft:food": {
                 "nutrition": 8,
                 "saturation_modifier": 0.8,
                 "can_always_eat": true
             },
+            "minecraft:rarity": "rare",
             "minecraft:use_animation": "eat",
             "minecraft:use_modifiers": {
                 "use_duration": 0.8,

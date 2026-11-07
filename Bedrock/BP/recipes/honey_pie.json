@@ -1,0 +1,40 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sweet_delight:honey_pie"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "result": [
+      {
+        "item": "sweet_delight:honey_pie",
+        "count": 1
+      },
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 4
+      }
+    ],
+    "pattern": [
+      "aba",
+      "bbb",
+      "cdc"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:wheat"
+      },
+      "b": {
+        "item": "minecraft:honey_bottle"
+      },
+      "c": {
+        "item": "minecraft:sugar"
+      },
+      "d": {
+        "item": "farmersdelight:pie_crust"
+      }
+    }
+  }
+}

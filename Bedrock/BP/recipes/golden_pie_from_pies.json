@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sweet_delight:golden_pie_from_pies"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "result": {
+      "item": "sweet_delight:golden_pie",
+      "count": 1
+    },
+    "pattern": [
+      "aaa",
+      "aba",
+      "aaa"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:gold_ingot"
+      },
+      "b": {
+        "tag": "sweet_delight:pies"
+      }
+    }
+  }
+}

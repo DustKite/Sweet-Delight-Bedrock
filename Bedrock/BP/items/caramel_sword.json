@@ -5,7 +5,7 @@
             "identifier": "sweet_delight:caramel_sword",
             "menu_category": {
                 "category": "equipment",
-                "group": "itemGroup.name.sword"
+                "group": "minecraft:itemGroup.name.sword"
             }
         },
         "components": {
@@ -18,8 +18,34 @@
             "minecraft:durability": {
                 "max_durability": 10
             },
-            "minecraft:damage": 4,
-            "minecraft:hand_equipped": true
+            "minecraft:enchantable": {
+                "slot": "sword",
+                "value": 15
+            },
+            "minecraft:damage": 2,
+            "minecraft:hand_equipped": true,
+            "minecraft:digger": {
+                "use_efficiency": false,
+                "destroy_speeds": [
+                    {
+                        "block": "minecraft:web",
+                        "speed": 15
+                    },
+                    {
+                        "block": "minecraft:bamboo",
+                        "speed": 15
+                    },
+                    {
+                        "block": "minecraft:bamboo_sapling",
+                        "speed": 15
+                    }
+                ]
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:is_sword"
+                ]
+            }
         }
     }
 }

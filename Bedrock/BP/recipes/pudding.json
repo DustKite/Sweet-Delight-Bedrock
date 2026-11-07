@@ -1,0 +1,45 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sweet_delight:pudding"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "result": [
+      {
+        "item": "sweet_delight:pudding",
+        "count": 1
+      },
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 1
+      }
+    ],
+    "pattern": [
+      "abc",
+      "def"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:cocoa_beans"
+      },
+      "b": {
+        "item": "minecraft:wheat"
+      },
+      "c": {
+        "tag": "farmersdelight:is_milk"
+      },
+      "d": {
+        "item": "minecraft:sugar"
+      },
+      "e": {
+        "tag": "minecraft:egg"
+      },
+      "f": {
+        "item": "minecraft:bowl"
+      }
+    }
+  }
+}

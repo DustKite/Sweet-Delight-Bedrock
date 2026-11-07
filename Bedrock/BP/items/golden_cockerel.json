@@ -5,7 +5,7 @@
             "identifier": "sweet_delight:golden_cockerel",
             "menu_category": {
                 "category": "equipment",
-                "group": "farmersdelight:itemGroup.name.miscFood"
+                "group": "sweet_delight:itemGroup.name.food"
             }
         },
         "components": {
@@ -14,12 +14,12 @@
                     "default": "sweet_delight:golden_cockerel"
                 }
             },
-            "minecraft:glint": true,
             "minecraft:food": {
                 "nutrition": 8,
                 "saturation_modifier": 0.5,
                 "can_always_eat": false
             },
+            "minecraft:rarity": "rare",
             "minecraft:use_animation": "drink",
             "minecraft:use_modifiers": {
                 "use_duration": 2.0,

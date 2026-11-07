@@ -13,7 +13,7 @@ import { EventAPI } from "../lib/EventAPI";
 
 const NEGATIVE_EFFECTS = [
     "poison", "wither", "hunger", "slowness", "weakness",
-    "blindness", "darkness", "nausea", "mining_fatigue"
+    "blindness", "darkness", "nausea", "instant_damage"
 ];
 
 function clearNegativeEffects(player) {
@@ -80,7 +80,7 @@ export class FoodRegister {
 
             case "sweet_delight:chocolate_ice_cream":
                 player.addEffect("speed", 100, { amplifier: 0 });
-                try { player.extinguishFire(true); } catch (e) { }
+                player.extinguishFire(true);
                 break;
 
             case "sweet_delight:chocolate_rabbit":
@@ -105,6 +105,7 @@ export class FoodRegister {
             case "sweet_delight:ginderbread_heart":
                 player.addEffect("health_boost", 300, { amplifier: 1 });
                 player.addEffect("regeneration", 20, { amplifier: 0 });
+                player.addEffect("instant_health", 1, { amplifier: 0 });
                 break;
 
             case "sweet_delight:ginderbread_ingot":
@@ -118,13 +119,13 @@ export class FoodRegister {
 
             case "sweet_delight:glow_berry_cupcake":
             case "sweet_delight:glow_berry_pretzel":
-                player.addEffect("night_vision", 60, { amplifier: 0 });
+                player.addEffect("night_vision", 200, { amplifier: 0 });
                 break;
 
             case "sweet_delight:glow_berries_rich_cream":
                 player.addEffect("instant_health", 1, { amplifier: 0 });
-                player.addEffect("night_vision", 60, { amplifier: 0 });
-                try { player.extinguishFire(true); } catch (e) { }
+                player.addEffect("night_vision", 200, { amplifier: 0 });
+                player.extinguishFire(true);
                 break;
 
             case "sweet_delight:golden_cockerel":
@@ -164,7 +165,7 @@ export class FoodRegister {
 
             case "sweet_delight:milk_ice_cream":
                 clearAllEffects(player);
-                try { player.extinguishFire(true); } catch (e) { }
+                player.extinguishFire(true);
                 break;
 
             case "sweet_delight:sunflower_halva":
@@ -188,7 +189,7 @@ export class FoodRegister {
 
             case "sweet_delight:snow_ice_cream":
                 player.addEffect("slowness", 240, { amplifier: 0 });
-                try { player.extinguishFire(true); } catch (e) { }
+                player.extinguishFire(true);
                 break;
 
             case "sweet_delight:sweet_berry_chocolate":
@@ -198,7 +199,7 @@ export class FoodRegister {
 
             case "sweet_delight:sweet_berry_ice_cream":
                 player.addEffect("instant_health", 1, { amplifier: 0 });
-                try { player.extinguishFire(true); } catch (e) { }
+                player.extinguishFire(true);
                 break;
 
             case "sweet_delight:caramel_cockerel":

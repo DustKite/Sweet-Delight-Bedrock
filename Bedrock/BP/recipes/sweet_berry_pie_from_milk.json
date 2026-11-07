@@ -1,0 +1,40 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sweet_delight:sweet_berry_pie_from_milk"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "result": [
+      {
+        "item": "sweet_delight:sweet_berry_pie",
+        "count": 1
+      },
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 1
+      }
+    ],
+    "pattern": [
+      "aaa",
+      "bcb",
+      "ddd"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:sweet_berries"
+      },
+      "b": {
+        "item": "minecraft:sugar"
+      },
+      "c": {
+        "tag": "farmersdelight:is_milk"
+      },
+      "d": {
+        "item": "minecraft:wheat"
+      }
+    }
+  }
+}

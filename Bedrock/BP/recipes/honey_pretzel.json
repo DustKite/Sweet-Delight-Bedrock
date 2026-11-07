@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sweet_delight:honey_pretzel"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "result": [
+      {
+        "item": "sweet_delight:honey_pretzel",
+        "count": 6
+      },
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 1
+      }
+    ],
+    "pattern": [
+      "aba",
+      " a "
+    ],
+    "key": {
+      "a": {
+        "item": "farmersdelight:wheat_dough"
+      },
+      "b": {
+        "item": "minecraft:honey_bottle"
+      }
+    }
+  }
+}

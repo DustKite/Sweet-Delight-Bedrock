@@ -1,0 +1,37 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sweet_delight:melon_ice_cream_from_melon_block"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "result": [
+      {
+        "item": "sweet_delight:melon_ice_cream",
+        "count": 3
+      },
+      {
+        "item": "minecraft:bucket",
+        "count": 1
+      }
+    ],
+    "pattern": [
+      "a",
+      "b",
+      "c"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:melon_block"
+      },
+      "b": {
+        "item": "minecraft:powder_snow_bucket"
+      },
+      "c": {
+        "item": "sweet_delight:wafle"
+      }
+    }
+  }
+}

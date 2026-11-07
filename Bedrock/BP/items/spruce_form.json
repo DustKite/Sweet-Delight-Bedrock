@@ -4,7 +4,8 @@
         "description": {
             "identifier": "sweet_delight:spruce_form",
             "menu_category": {
-                "category": "items"
+                "category": "items",
+                "group": "farmersdelight:itemGroup.name.miscItem"
             }
         },
         "components": {

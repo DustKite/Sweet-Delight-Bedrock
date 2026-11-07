@@ -51,7 +51,7 @@
         "description": {
             "basic_render_parameters": {
                 "material": "particles_alpha",
-                "texture": "textures/items/sweet_delight/wheat_dough"
+                "texture": "textures/items/wheat_dough"
             },
             "identifier": "farmersdelight:wheat_dough"
         }

@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sweet_delight:chocolate_rabbit"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "result": {
+      "item": "sweet_delight:chocolate_rabbit",
+      "count": 2
+    },
+    "pattern": [
+      " aa",
+      "baa",
+      " b "
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:cocoa_beans"
+      },
+      "b": {
+        "item": "minecraft:rabbit_foot"
+      }
+    }
+  }
+}
