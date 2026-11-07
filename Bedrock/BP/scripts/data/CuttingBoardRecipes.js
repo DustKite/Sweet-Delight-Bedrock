@@ -1,4 +1,4 @@
-export const CuttingBoardRecipes = [
+export const cuttingBoardRecipes = [
     {
         ingredients: {
             item: "sweet_delight:heart_caramel"

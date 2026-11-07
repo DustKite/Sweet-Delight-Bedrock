@@ -9,23 +9,22 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 import { WorldLoadAfterEvent, system, world } from "@minecraft/server";
 import { EventAPI } from "../lib/EventAPI";
-import { CuttingBoardRecipes } from "../datas/CuttingRecipes";
-import { CookingPotRecipes } from "../datas/CookingPotRecipes";
-import { CookRecipes } from "../datas/CookRecipes";
+import { cookingPotRecipes } from "../data/CookingPotRecipes";
+import { cuttingBoardRecipes } from "../data/CuttingBoardRecipes";
+import { cookRecipes } from "../data/CookRecipes";
+
+function sendRecipes(id, recipes) {
+    for (const recipe of recipes) {
+        system.sendScriptEvent(id, JSON.stringify(recipe));
+    }
+}
 export class RecipeRegister {
     register(args) {
-        system.runTimeout(() => {
-            for (let i = 0; i < CookingPotRecipes.length; i++) {
-                const recipe = JSON.stringify(CookingPotRecipes[i]);
-                world.getDimension("overworld").runCommand(`scriptevent farmersdelight:cooking_pot_recipe ${recipe}`);
-            }
-            for (let i = 0; i < CuttingBoardRecipes.length; i++) {
-                world.getDimension("overworld").runCommand(`scriptevent farmersdelight:cutting_board_recipe ${JSON.stringify(CuttingBoardRecipes[i])}`);
-            }
-            for (let i = 0; i < CookRecipes.length; i++) {
-                world.getDimension("overworld").runCommand(`scriptevent farmersdelight:cook ${JSON.stringify(CookRecipes[i])}`);
-            }
-        }, 1);
+        system.run(() => {
+            sendRecipes("farmersdelight:cooking_pot_recipe", cookingPotRecipes);
+            sendRecipes("farmersdelight:cutting_board_recipe", cuttingBoardRecipes);
+            sendRecipes("farmersdelight:cook", cookRecipes);
+        });
     }
 }
 __decorate([

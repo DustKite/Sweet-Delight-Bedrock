@@ -1,4 +1,4 @@
-const CookingPotRecipes = [
+const cookingPotRecipes = [
     {
         "identifier": "sweet_delight:bitter_chocolate",
         "tags": [
@@ -783,4 +783,4 @@ const CookingPotRecipes = [
         }
     }
 ];
-export { CookingPotRecipes };
+export { cookingPotRecipes };
